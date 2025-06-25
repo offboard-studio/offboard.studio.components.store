@@ -1,4 +1,4 @@
-name: Deploy to Vercel
+name: Deploy NestJS to Vercel
 
 on:
   push:
@@ -11,6 +11,17 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'  # Vercel’in desteklediği sürüm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build NestJS
+        run: npm run build
 
       - name: Install Vercel CLI
         run: npm install --global vercel
