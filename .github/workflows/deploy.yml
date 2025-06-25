@@ -18,7 +18,7 @@ jobs:
           node-version: '20'  # Vercel’in desteklediği sürüm
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build NestJS
         run: npm run build
