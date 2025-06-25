@@ -4,7 +4,7 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { RedocModule, RedocOptions } from 'nestjs-redoc';
 import { AppModule } from './app.module';
 
-export class ServerController {
+class ServerController {
   private app!: INestApplication;
   private readonly globalPrefix = 'api';
   private readonly port = process.env.PORT || 3000;
@@ -78,7 +78,7 @@ export class ServerController {
   }
 }
 
-export async function bootstrap(): Promise<void> {
+async function bootstrap(): Promise<void> {
   const serverController = new ServerController();
   await serverController.createServer();
 
@@ -96,10 +96,4 @@ export async function bootstrap(): Promise<void> {
 }
 
 
-bootstrap()  .then(() => {
-    Logger.log('Server bootstrap completed successfully.');
-  })
-  .catch((error) => {
-    Logger.error('Error during server bootstrap:', error);
-    process.exit(1);
-  });
+bootstrap();
