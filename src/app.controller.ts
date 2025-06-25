@@ -9,4 +9,10 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  
+  @Get("json")
+  getjson(): string {
+    return this.appService.jsonData();
+  }
 }
