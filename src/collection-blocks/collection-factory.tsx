@@ -131,11 +131,117 @@ export const collectionBlocks: {
     }
 }
 
-/**
- * Import the data of specified block
- * @param name Name / type of block
- * @returns Imported json of the specified block
- */
+export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
+    blocks: {
+      control: {
+        label: 'Control',
+        children: {
+          motorDriver: { label: 'MotorDriver' },
+          pid: { label: 'PID' },
+          teleoperator: { label: 'Teleoperator' }
+        }
+      },
+      opencv: {
+        label: 'OpenCV',
+        children: {
+          blur: { label: 'Blur' },
+          camera: { label: 'Camera' },
+          colorFilter: { label: 'Color Filter' },
+          contourDetector: { label: 'Contour Detector' },
+          cropper: { label: 'Cropper' },
+          dilation: { label: 'Dilation' },
+          edgeDetector: { label: 'Edge Detector' },
+          erosion: { label: 'Erosion' },
+          faceDetector: { label: 'Face Detector' },
+          imageRead: { label: 'Image Read' },
+          screen: { label: 'Screen' },
+          threshold: { label: 'Threshold' },
+          videoStreamer: { label: 'Video Streamer' }
+        }
+      },
+      rossensors: {
+        label: 'ROS-Sensors',
+        children: {
+          cameraRos: { label: 'CameraROS' },
+          odometer: { label: 'Odometer' },
+          imu: { label: 'IMU' }
+        }
+      },
+      tensorflow: {
+        label: 'TensorFlow',
+        children: {
+          objectDetector: { label: 'Object Detector' }
+        }
+      }
+    },
+    processing: {
+      control: {
+        label: 'Control',
+        children: {
+          pid: { label: 'PID' }
+        }
+      },
+      opencv: {
+        label: 'OpenCV',
+        children: {
+          blur: { label: 'Blur' },
+          colorFilter: { label: 'Color Filter' },
+          contourDetector: { label: 'Contour Detector' },
+          cropper: { label: 'Cropper' },
+          dilation: { label: 'Dilation' },
+          edgeDetector: { label: 'Edge Detector' },
+          erosion: { label: 'Erosion' },
+          faceDetector: { label: 'Face Detector' },
+          threshold: { label: 'Threshold' }
+        }
+      },
+      tensorflow: {
+        label: 'TensorFlow',
+        children: {
+          objectDetector: { label: 'Object Detector' }
+        }
+      }
+    },
+    drivers: {
+      control: {
+        label: 'Control',
+        children: {
+          motorDriver: { label: 'MotorDriver' },
+          motorDriverRos2: { label: 'MotorDriverROS2' },
+          teleoperator: { label: 'Teleoperator' }
+        }
+      },
+      opencv: {
+        label: 'OpenCV',
+        children: {
+          camera: { label: 'Camera' },
+          imageRead: { label: 'Image Read' },
+          screen: { label: 'Screen' },
+          videoStreamer: { label: 'Video Streamer' }
+        }
+      },
+      rossensors: {
+        label: 'ROS-Sensors',
+        children: {
+          cameraRos: { label: 'CameraROS' },
+          odometer: { label: 'Odometer' },
+          imu: { label: 'IMU' },
+          laserRos: { label: 'LaserROS' }
+        }
+      },
+      ros2sensors: {
+        label: 'ROS2-Sensors',
+        children: {
+          cameraRos2: { label: 'CameraROS2' },
+          laserRos2: { label: 'LaserROS2' }
+        }
+      }
+    }
+  };
+
+
+// This function is used to get the block data from the collectionBlocks object but Removed for now
+/*
 export function getCollectionBlock(name: string) {
 
     switch (name) {
@@ -191,3 +297,4 @@ export function getCollectionBlock(name: string) {
             break;
     }
 }
+*/

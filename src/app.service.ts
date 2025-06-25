@@ -1,5 +1,4 @@
 import { Injectable } from '@nestjs/common';
-import { collectionBlocks, getCollectionBlock } from 'assets/collection/collection-factory';
 
 @Injectable()
 export class AppService {
@@ -8,6 +7,7 @@ export class AppService {
   }
 
   jsonData(): any {
-    return getCollectionBlock('drivers.control.motorDriver');
+    // return getCollectionBlock('drivers.control.motorDriver');
+    // return collectionBlocks;
   }
 }

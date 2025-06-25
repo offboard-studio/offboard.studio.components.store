@@ -1,8 +1,105 @@
+import { INestApplication, Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
+import { RedocModule, RedocOptions } from 'nestjs-redoc';
 import { AppModule } from './app.module';
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  await app.listen(process.env.PORT ?? 3000);
+export class ServerController {
+  private app!: INestApplication;
+  private readonly globalPrefix = 'api';
+  private readonly port = process.env.PORT || 3000;
+
+  async createServer(): Promise<void> {
+    // this.app = await NestFactory.create(AppModule);
+    // this.app = await NestFactory.create(AppModule) as INestApplication;
+    
+    this.app = (await NestFactory.create(AppModule)) as INestApplication;
+    this.app.enableCors({
+      origin: '*', // Allow all origins
+      methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed HTTP methods
+      allowedHeaders: 'Content-Type, Authorization', // Allowed headers
+    });
+    this.app.setGlobalPrefix(this.globalPrefix);
+
+    const swaggerConfig = new DocumentBuilder()
+      .setTitle('Offboard Studio API')
+      .setDescription('API documentation for Offboard Studio')
+      .setVersion('1.0.0')
+      .addTag('offboard-studio')
+      .build();
+
+    const document = SwaggerModule.createDocument(this.app, swaggerConfig);
+
+    const redocOptions: RedocOptions = {
+      title: 'Offboard Studio API Docs',
+      logo: {
+        // url: 'https://redocly.github.io/redoc/petstore-logo.png',
+        backgroundColor: '#ffffff',
+        altText: 'Offboard Studio Logo',
+      },
+      sortPropsAlphabetically: true,
+      hideDownloadButton: false,
+      hideHostname: false,
+      // auth: {
+      //   enabled: true,
+      //   user: 'admin',
+      //   password: '123',
+      // },
+      // tagGroups: [
+      //   {
+      //     name: 'Main Modules',
+      //     tags: ['offboard-studio'],
+      //   },
+      // ],
+    };
+
+    // Swagger UI (optional)
+    SwaggerModule.setup('docs', this.app, document);
+
+    // Redoc UI
+    // await RedocModule.setup('redoc', this.app, document, redocOptions);
+
+    await RedocModule.setup('redoc', this.app, document, redocOptions);
+
+
+    await this.app.listen(this.port);
+    const url = await this.app.getUrl();
+
+    Logger.log(`🚀 Server ready at ${url}/${this.globalPrefix}`);
+    Logger.log(`📄 Swagger UI at ${url}/docs`);
+    Logger.log(`📘 Redoc at ${url}/redoc`);
+  }
+
+  async close(): Promise<void> {
+    if (this.app) {
+      await this.app.close();
+      Logger.log('🛑 Server shut down gracefully.');
+    }
+  }
 }
-bootstrap();
+
+export async function bootstrap(): Promise<void> {
+  const serverController = new ServerController();
+  await serverController.createServer();
+
+  process.on('SIGINT', async () => {
+    Logger.warn('SIGINT received. Closing app...');
+    await serverController.close();
+    process.exit(0);
+  });
+
+  process.on('SIGTERM', async () => {
+    Logger.warn('SIGTERM received. Closing app...');
+    await serverController.close();
+    process.exit(0);
+  });
+}
+
+
+bootstrap()  .then(() => {
+    Logger.log('Server bootstrap completed successfully.');
+  })
+  .catch((error) => {
+    Logger.error('Error during server bootstrap:', error);
+    process.exit(1);
+  });
