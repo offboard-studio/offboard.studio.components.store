@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/(swagger-ui\\.css|swagger-ui-bundle\\.js|swagger-ui-standalone-preset\\.js|favicon-.*\\.png)",
+      "dest": "/build/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "build/bundle.js"
     }
