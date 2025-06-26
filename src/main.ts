@@ -3,17 +3,28 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { RedocModule, RedocOptions } from 'nestjs-redoc';
 import { AppModule } from './app.module';
+import { join } from 'path';
+import { NestExpressApplication } from '@nestjs/platform-express';
+
+import * as express from 'express';
 
 class ServerController {
-  private app!: INestApplication;
+  private app!: NestExpressApplication;
+
   private readonly globalPrefix = 'api';
   private readonly port = process.env.PORT || 3000;
 
   async createServer(): Promise<void> {
-    // this.app = await NestFactory.create(AppModule);
-    // this.app = await NestFactory.create(AppModule) as INestApplication;
 
-    this.app = (await NestFactory.create(AppModule)) as INestApplication;
+    this.app = (await NestFactory.create<NestExpressApplication>(AppModule));
+    // this.app = await NestFactory.create(AppModule);
+    
+
+    // this.app = (await NestFactory.create(AppModule)) as INestApplication;
+
+
+    this.app.use('/docs', express.static(join(__dirname, 'docs')));
+
     this.app.enableCors({
       origin: '*', // Allow all origins
       methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed HTTP methods
