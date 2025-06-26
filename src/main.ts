@@ -12,7 +12,7 @@ class ServerController {
   async createServer(): Promise<void> {
     // this.app = await NestFactory.create(AppModule);
     // this.app = await NestFactory.create(AppModule) as INestApplication;
-    
+
     this.app = (await NestFactory.create(AppModule)) as INestApplication;
     this.app.enableCors({
       origin: '*', // Allow all origins
@@ -54,7 +54,15 @@ class ServerController {
     };
 
     // Swagger UI (optional)
-    SwaggerModule.setup('docs', this.app, document);
+    SwaggerModule.setup('docs', this.app, document, {
+      customSiteTitle: 'API Docs',
+      customfavIcon: '/docs/favicon-32x32.png',
+      customCssUrl: '/docs/swagger-ui.css',
+      customJs: [
+        '/docs/swagger-ui-bundle.js',
+        '/docs/swagger-ui-standalone-preset.js'
+      ]
+    });
 
     // Redoc UI
     // await RedocModule.setup('redoc', this.app, document, redocOptions);
