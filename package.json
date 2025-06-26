@@ -1,10 +1,19 @@
 {
-  "name": "nestjs-vercel-deploy",
+  "name": "offboard.studio.components.store",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "pkg": {
+    "assets": [
+      "build/favicon-32x32.png",
+      "build/favicon-16x16.png",
+      "build/swagger-ui-standalone-preset.js",
+      "build/swagger-ui-bundle.js",
+      "build/swagger-ui.css"
+    ]
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
