@@ -8,8 +8,8 @@ module.exports = {
     devtool: 'inline-source-map',
     mode: 'development', // or 'development' if you are in dev mode
     output: {
-        path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'main.js'
     },
     resolve: {
         alias: {

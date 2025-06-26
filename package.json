@@ -5,13 +5,15 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
+  "bin": "dist/main.js",
+  "main": "dist/main.js",
   "pkg": {
     "assets": [
-      "build/favicon-32x32.png",
-      "build/favicon-16x16.png",
-      "build/swagger-ui-standalone-preset.js",
-      "build/swagger-ui-bundle.js",
-      "build/swagger-ui.css"
+      "dist/favicon-32x32.png",
+      "dist/favicon-16x16.png",
+      "dist/swagger-ui-standalone-preset.js",
+      "dist/swagger-ui-bundle.js",
+      "dist/swagger-ui.css"
     ]
   },
   "scripts": {
