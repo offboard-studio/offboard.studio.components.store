@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { join } from 'path';
 import * as fs from 'fs/promises';
-import { collectionBlocksFiles, CollectionBlockType } from 'src/collection-blocks/collection-factory';
+import { collectionBlocksFiles, CollectionBlockType } from '../collection_blocks/collection_factory';
 @Injectable()
 export class BlockCatalogService {
   private readonly collectionBlocks: Record<string, CollectionBlockType> = collectionBlocksFiles;
@@ -40,7 +40,7 @@ export class BlockCatalogService {
       return Object.entries(categoryObj.children ?? {}).map(([blockId, blockData]) => {
         return {
           id: blockId,
-          label: blockData.label,
+          label: blockData.label as string,
           path: category,
           file: `${this.capitalize(blockId)}.json`
         };

@@ -12,7 +12,10 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-        extensions: ['.ts', '.js'] //resolve all the modules other than index.ts
+        alias: {
+            src: path.resolve(__dirname, 'src')
+        },
+        extensions: ['.ts', '.js', '.json']
     },
     stats: {
         warnings: false
