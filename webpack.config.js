@@ -43,6 +43,31 @@ module.exports = {
                 { from: 'node_modules/swagger-ui-dist/favicon-16x16.png', to: 'favicon-16x16.png' },
                 { from: 'node_modules/swagger-ui-dist/favicon-32x32.png', to: 'favicon-32x32.png' }
             ]
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                {
+                    from: 'node_modules/swagger-ui-dist/swagger-ui.css',
+                    to: 'docs/swagger-ui.css',
+                },
+                {
+                    from: 'node_modules/swagger-ui-dist/swagger-ui-bundle.js',
+                    to: 'docs/swagger-ui-bundle.js',
+                },
+                {
+                    from: 'node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js',
+                    to: 'docs/swagger-ui-standalone-preset.js',
+                },
+                {
+                    from: 'node_modules/swagger-ui-dist/favicon-16x16.png',
+                    to: 'docs/favicon-16x16.png',
+                },
+                {
+                    from: 'node_modules/swagger-ui-dist/favicon-32x32.png',
+                    to: 'docs/favicon-32x32.png',
+                },
+            ]
         })
+
     ]
 }
