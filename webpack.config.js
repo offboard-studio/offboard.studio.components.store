@@ -47,6 +47,13 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 {
+                    from: 'node_modules/swagger-ui-dist',
+                    to: 'public/docs',
+                    globOptions: {
+                        ignore: ['**/index.html']
+                    }
+                },
+                {
                     from: 'node_modules/swagger-ui-dist/swagger-ui.css',
                     to: 'docs/swagger-ui.css',
                 },
