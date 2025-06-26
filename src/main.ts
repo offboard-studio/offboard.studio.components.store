@@ -56,12 +56,19 @@ class ServerController {
     // Swagger UI (optional)
     SwaggerModule.setup('docs', this.app, document, {
       customSiteTitle: 'API Docs',
-      customfavIcon: '/docs/favicon-32x32.png',
-      customCssUrl: '/docs/swagger-ui.css',
+      // customfavIcon: '/docs/favicon-32x32.png',
+      // customCssUrl: '/docs/swagger-ui.css',
+      // customJs: [
+      //   '/docs/swagger-ui-bundle.js',
+      //   '/docs/swagger-ui-standalone-preset.js'
+      // ]
+
+      customCssUrl: 'https://unpkg.com/swagger-ui-dist@4.15.5/swagger-ui.css',
       customJs: [
-        '/docs/swagger-ui-bundle.js',
-        '/docs/swagger-ui-standalone-preset.js'
+        'https://unpkg.com/swagger-ui-dist@4.15.5/swagger-ui-bundle.js',
+        'https://unpkg.com/swagger-ui-dist@4.15.5/swagger-ui-standalone-preset.js'
       ]
+
     });
 
     // Redoc UI
