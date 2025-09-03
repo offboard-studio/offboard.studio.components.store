@@ -61,8 +61,11 @@ export class BlockCatalogService {
 
     // const fileName = `${this.capitalize(blockId)}.json`;
     const fileName = block.file || `${this.capitalize(blockId)}.json`;
-    const fullPath = join(__dirname, `../assets/assets/collection/${category}/${fileName}`);
-    const fileContent = await fs.readFile(fullPath, 'utf8');
+    // const fullPath = join(__dirname, `../assets/assets/collection/${category}/${fileName}`);
+    // const fileContent = await fs.readFile(fullPath, 'utf8');
+
+    const response = await fetch(`https://raw.githubusercontent.com/offboard-studio/offboard.studio.components.store/refs/heads/main/src/assets/collection/${category}/${fileName}`);
+    const fileContent = await response.text();
 
     return {
       label: block.label,
