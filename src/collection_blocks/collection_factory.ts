@@ -124,6 +124,29 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
           laserRos2: { label: 'LaserROS2' }
         }
       }
+    },
+    industrial: {
+      modbus: {
+        label: 'Modbus',
+        children: {
+          modbusRead: { label: 'ModBusRead' },
+          modbusWrite: { label: 'ModBusWrite' }
+        }
+      },
+      canbus: {
+        label: 'CANBus',
+        children: {
+          canbusRead: { label: 'CANBusRead' },
+          canbusWrite: { label: 'CANBusWrite' }
+        }
+      },
+      snap7: {
+        label: 'Snap7',
+        children: {
+          snap7Read: { label: 'Snap7Read' },
+          snap7Write: { label: 'Snap7Write' }
+        }
+      }
     }
   };
 
