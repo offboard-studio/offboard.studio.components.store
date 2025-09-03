@@ -16,7 +16,8 @@ export class BlockCatalogService {
           return {
             id: blockId,
             path: subKey,
-            file: `${this.capitalize(blockId)}.json`
+            // file: `${this.capitalize(blockId)}.json`
+            file: blockObj.file || `${this.capitalize(blockId)}.json`,
           };
         });
       });
@@ -42,7 +43,8 @@ export class BlockCatalogService {
           id: blockId,
           label: blockData.label as string,
           path: category,
-          file: `${this.capitalize(blockId)}.json`
+          // file: `${this.capitalize(blockId)}.json`
+          file: blockData.file || `${this.capitalize(blockId)}.json`,
         };
       });
     });
@@ -57,7 +59,8 @@ export class BlockCatalogService {
       throw new Error(`Block '${group}/${category}/${blockId}' not found.`);
     }
 
-    const fileName = `${this.capitalize(blockId)}.json`;
+    // const fileName = `${this.capitalize(blockId)}.json`;
+    const fileName = block.file || `${this.capitalize(blockId)}.json`;
     const fullPath = join(__dirname, `../assets/assets/collection/${category}/${fileName}`);
     const fileContent = await fs.readFile(fullPath, 'utf8');
 

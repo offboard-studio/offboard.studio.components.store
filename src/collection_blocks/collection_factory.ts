@@ -6,6 +6,7 @@ export type CollectionBlockType = {
     [k: string]: {
         label: string;
         children?: CollectionBlockType;
+        file?: string;
     }
 }
 
@@ -24,41 +25,41 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
       control: {
         label: 'Control',
         children: {
-          motorDriver: { label: 'MotorDriver' },
-          pid: { label: 'PID' },
-          teleoperator: { label: 'Teleoperator' }
+          motorDriver: { label: 'MotorDriver', file: 'MotorDriver.json' },
+          pid: { label: 'PID', file: 'PID.json' },
+          teleoperator: { label: 'Teleoperator', file: 'Teleoperator.json' }
         }
       },
       opencv: {
         label: 'OpenCV',
         children: {
-          blur: { label: 'Blur' },
-          camera: { label: 'Camera' },
-          colorFilter: { label: 'Color Filter' },
-          contourDetector: { label: 'Contour Detector' },
-          cropper: { label: 'Cropper' },
-          dilation: { label: 'Dilation' },
-          edgeDetector: { label: 'Edge Detector' },
-          erosion: { label: 'Erosion' },
-          faceDetector: { label: 'Face Detector' },
-          imageRead: { label: 'Image Read' },
-          screen: { label: 'Screen' },
-          threshold: { label: 'Threshold' },
-          videoStreamer: { label: 'Video Streamer' }
+          blur: { label: 'Blur', file: 'Blur.json' },
+          camera: { label: 'Camera', file: 'Camera.json' },
+          colorFilter: { label: 'Color Filter', file: 'ColorFilter.json' },
+          contourDetector: { label: 'Contour Detector', file: 'ContourDetector.json' },
+          cropper: { label: 'Cropper', file: 'Cropper.json' },
+          dilation: { label: 'Dilation', file: 'Dilation.json' },
+          edgeDetector: { label: 'Edge Detector', file: 'EdgeDetector.json' },
+          erosion: { label: 'Erosion', file: 'Erosion.json' },
+          faceDetector: { label: 'Face Detector', file: 'FaceDetector.json' },
+          imageRead: { label: 'Image Read', file: 'ImageRead.json' },
+          screen: { label: 'Screen', file: 'Screen.json' },
+          threshold: { label: 'Threshold', file: 'Threshold.json' },
+          videoStreamer: { label: 'Video Streamer', file: 'VideoStreamer.json' }
         }
       },
       rossensors: {
         label: 'ROS-Sensors',
         children: {
-          cameraRos: { label: 'CameraROS' },
-          odometer: { label: 'Odometer' },
-          imu: { label: 'IMU' }
+          cameraRos: { label: 'CameraROS', file: 'ROSCamera.json' },
+          odometer: { label: 'Odometer', file: 'ROS-Odometer.json' },
+          imu: { label: 'IMU', file: 'ROS-IMU.json' }
         }
       },
       tensorflow: {
         label: 'TensorFlow',
         children: {
-          objectDetector: { label: 'Object Detector' }
+          objectDetector: { label: 'Object Detector', file: 'ObjectDetector.json' }
         }
       }
     },
@@ -66,27 +67,47 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
       control: {
         label: 'Control',
         children: {
-          pid: { label: 'PID' }
+          pid: { label: 'PID', file: 'PID.json'}
         }
       },
       opencv: {
         label: 'OpenCV',
         children: {
-          blur: { label: 'Blur' },
-          colorFilter: { label: 'Color Filter' },
-          contourDetector: { label: 'Contour Detector' },
-          cropper: { label: 'Cropper' },
-          dilation: { label: 'Dilation' },
-          edgeDetector: { label: 'Edge Detector' },
-          erosion: { label: 'Erosion' },
-          faceDetector: { label: 'Face Detector' },
-          threshold: { label: 'Threshold' }
+          blur: { label: 'Blur', file: 'Blur.json' },
+          colorFilter: { label: 'Color Filter', file: 'ColorFilter.json' },
+          contourDetector: { label: 'Contour Detector', file: 'ContourDetector.json' },
+          cropper: { label: 'Cropper', file: 'Cropper.json' },
+          dilation: { label: 'Dilation', file: 'Dilation.json' },
+          edgeDetector: { label: 'Edge Detector', file: 'EdgeDetector.json' },
+          erosion: { label: 'Erosion', file: 'Erosion.json' },
+          faceDetector: { label: 'Face Detector', file: 'FaceDetector.json' },
+          threshold: { label: 'Threshold', file: 'Threshold.json' }
         }
       },
       tensorflow: {
         label: 'TensorFlow',
         children: {
-          objectDetector: { label: 'Object Detector' }
+          objectDetector: { label: 'Object Detector', file: 'ObjectDetector.json' }
+        }
+      }
+    },
+    ros: {
+        rossensors: {
+        label: 'ROS-Sensors',
+        children: {
+          cameraRos: { label: 'CameraROS', file: 'ROSCamera.json' },
+          odometer: { label: 'Odometer', file: 'ROS-Odometer.json' },
+          imu: { label: 'IMU', file: 'ROS-IMU.json' },
+          laserRos: { label: 'LaserROS', file: 'ROSLaser.json' }
+        }
+      }
+    },
+    ros2: {
+        ros2sensors: {
+        label: 'ROS2-Sensors',
+        children: {
+          cameraRos2: { label: 'CameraROS2', file: 'ROS2Camera.json' },
+          laserRos2: { label: 'LaserROS2', file: 'ROS2Laser.json' }
         }
       }
     },
@@ -94,58 +115,43 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
       control: {
         label: 'Control',
         children: {
-          motorDriver: { label: 'MotorDriver' },
-          motorDriverRos2: { label: 'MotorDriverROS2' },
-          teleoperator: { label: 'Teleoperator' }
+          motorDriver: { label: 'MotorDriver', file: 'MotorDriver.json' },
+          motorDriverRos2: { label: 'MotorDriverROS2', file: 'MotorDriverROS2.json' },
+          teleoperator: { label: 'Teleoperator', file: 'Teleoperator.json' }
         }
       },
       opencv: {
         label: 'OpenCV',
         children: {
-          camera: { label: 'Camera' },
-          imageRead: { label: 'Image Read' },
-          gstreamerh264Streamer: { label: ' Gstreamer H264 Streamer' },
-          screen: { label: 'Screen' },
-          videoStreamer: { label: 'Video Streamer' }
+          camera: { label: 'Camera', file: 'Camera.json' },
+          imageRead: { label: 'Image Read', file: 'ImageRead.json' },
+          gstreamerh264streamer: { label: 'Gstreamer H264 Streamer', file: 'GstreamerH264Streamer.json' },
+          screen: { label: 'Screen', file: 'Screen.json' },
+          videoStreamer: { label: 'Video Streamer', file: 'VideoStreamer.json' }
         }
       },
-      rossensors: {
-        label: 'ROS-Sensors',
-        children: {
-          cameraRos: { label: 'CameraROS' },
-          odometer: { label: 'Odometer' },
-          imu: { label: 'IMU' },
-          laserRos: { label: 'LaserROS' }
-        }
-      },
-      ros2sensors: {
-        label: 'ROS2-Sensors',
-        children: {
-          cameraRos2: { label: 'CameraROS2' },
-          laserRos2: { label: 'LaserROS2' }
-        }
-      }
+      
     },
     industrial: {
       modbus: {
         label: 'Modbus',
         children: {
-          modbusRead: { label: 'ModBusRead' },
-          modbusWrite: { label: 'ModBusWrite' }
+          modbusRead: { label: 'ModBusRead', file: 'ModbusRead.json' },
+          modbusWrite: { label: 'ModBusWrite', file: 'ModbusWrite.json' }
         }
       },
       canbus: {
         label: 'CANBus',
         children: {
-          canbusRead: { label: 'CANBusRead' },
-          canbusWrite: { label: 'CANBusWrite' }
+          canbusRead: { label: 'CANBusRead', file: 'CANBusRead.json' },
+          canbusWrite: { label: 'CANBusWrite', file: 'CANBusWrite.json' }
         }
       },
       snap7: {
         label: 'Snap7',
         children: {
-          snap7Read: { label: 'Snap7Read' },
-          snap7Write: { label: 'Snap7Write' }
+          snap7Read: { label: 'Snap7Read' , file: 'Snap7Read.json' },
+          snap7Write: { label: 'Snap7Write', file: 'Snap7Write.json' }
         }
       }
     }
