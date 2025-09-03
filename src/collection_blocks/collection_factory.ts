@@ -133,27 +133,17 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
 
     },
     industrial: {
-        modbus: {
-            label: 'Modbus',
+        communication: {
+            label: 'Communication',
             children: {
                 modbusRead: { label: 'ModBusRead', file: 'ModbusRead.json' },
-                modbusWrite: { label: 'ModBusWrite', file: 'ModbusWrite.json' }
-            }
-        },
-        canbus: {
-            label: 'CANBus',
-            children: {
+                modbusWrite: { label: 'ModBusWrite', file: 'ModbusWrite.json' },
                 canbusRead: { label: 'CANBusRead', file: 'CANBusRead.json' },
-                canbusWrite: { label: 'CANBusWrite', file: 'CANBusWrite.json' }
-            }
-        },
-        snap7: {
-            label: 'Snap7',
-            children: {
+                canbusWrite: { label: 'CANBusWrite', file: 'CANBusWrite.json' },
                 snap7Read: { label: 'Snap7Read', file: 'Snap7Read.json' },
                 snap7Write: { label: 'Snap7Write', file: 'Snap7Write.json' }
             }
-        }
+        },
     }
 };
 
