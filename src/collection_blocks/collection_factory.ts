@@ -104,6 +104,7 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
         children: {
           camera: { label: 'Camera' },
           imageRead: { label: 'Image Read' },
+          gstreamerh264Streamer: { label: ' Gstreamer H264 Streamer' },
           screen: { label: 'Screen' },
           videoStreamer: { label: 'Video Streamer' }
         }

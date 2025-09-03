@@ -1,0 +1,698 @@
+{
+    "editor": {
+        "id": "25bbba00-5069-4464-8b53-c34245614da7",
+        "offsetX": 272,
+        "offsetY": 115,
+        "zoom": 100,
+        "gridSize": 0,
+        "layers": [
+            {
+                "id": "89cdc86b-cd8d-40fc-a806-ae9a205a7d44",
+                "type": "diagram-links",
+                "isSvg": true,
+                "transformed": true,
+                "models": {
+                    "32621bc0-d161-476d-97e8-6dbcc1325a6b": {
+                        "id": "32621bc0-d161-476d-97e8-6dbcc1325a6b",
+                        "type": "default",
+                        "selected": false,
+                        "source": "926e7e4d-bccf-4e4f-8f43-657d79d623fc",
+                        "sourcePort": "8a359a46-97a7-449c-8994-b95758a8926c",
+                        "target": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "targetPort": "5f7e0707-08f6-4cab-ba75-4b398d002af9",
+                        "points": [
+                            {
+                                "id": "164c57c2-beea-4542-bb58-e61eb72c50ee",
+                                "type": "point",
+                                "x": 191.5,
+                                "y": 396.5
+                            },
+                            {
+                                "id": "a1291b13-3feb-4226-b438-de33a0e2a9d2",
+                                "type": "point",
+                                "x": 224.5,
+                                "y": 395.25
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "e24d346d-8e57-41eb-8316-adf76eefc3b0": {
+                        "id": "e24d346d-8e57-41eb-8316-adf76eefc3b0",
+                        "type": "default",
+                        "selected": false,
+                        "source": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "sourcePort": "7db9d21e-4273-4f15-a8ff-88d1f2fce4d2",
+                        "target": "9e70d59d-5f66-4a65-9501-839fd996ef36",
+                        "targetPort": "57cbfae1-b1ae-44b0-a092-28b155072f57",
+                        "points": [
+                            {
+                                "id": "d413b15f-5df4-4c38-84a3-4df0adfd4eaf",
+                                "type": "point",
+                                "x": 746.8984375,
+                                "y": 401
+                            },
+                            {
+                                "id": "8675b95e-fd13-49f8-b0ea-13bd60e433a5",
+                                "type": "point",
+                                "x": 892.5,
+                                "y": 400.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "647e39f3-771b-4c0b-85f1-deaf07129ea8": {
+                        "id": "647e39f3-771b-4c0b-85f1-deaf07129ea8",
+                        "type": "default",
+                        "selected": false,
+                        "source": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "sourcePort": "89594103-531f-42c0-9799-b5a196f73362",
+                        "target": "5d3697c1-89fb-445f-a017-d6a4a0605ad8",
+                        "targetPort": "f2b294a9-5ddb-4bb4-a419-ae41adb75087",
+                        "points": [
+                            {
+                                "id": "6a1bb873-be17-40ab-8b0a-12f7eb5fc401",
+                                "type": "point",
+                                "x": 746.8984375,
+                                "y": 283.5
+                            },
+                            {
+                                "id": "d892f666-692f-4502-88ce-b6f4c9abb47c",
+                                "type": "point",
+                                "x": 886.5,
+                                "y": 282.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "6891599c-b88a-4879-b497-d8a64fd60e4f": {
+                        "id": "6891599c-b88a-4879-b497-d8a64fd60e4f",
+                        "type": "default",
+                        "selected": false,
+                        "source": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "sourcePort": "47aaee64-17ef-4b08-8911-c29e3e101d4c",
+                        "target": "df8fee9d-173c-44ce-b2c6-f1ae2208b470",
+                        "targetPort": "2b36aebe-960c-4dd5-b09b-12536e6a60c9",
+                        "points": [
+                            {
+                                "id": "157c9e61-4ef5-430c-94bf-ab5732654b5d",
+                                "type": "point",
+                                "x": 746.8984375,
+                                "y": 507
+                            },
+                            {
+                                "id": "7f9a2d1a-bf0f-477f-b009-7046f3f597a4",
+                                "type": "point",
+                                "x": 890.5,
+                                "y": 499.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "5d72b625-4cc8-4c24-b96f-f287936a000f": {
+                        "id": "5d72b625-4cc8-4c24-b96f-f287936a000f",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0007-f37c2eda-0499-407b-b5e9-91c0701495f6",
+                        "sourcePort": "f5f61cc9-c0e2-4662-a1b2-1b673b77908c",
+                        "target": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "targetPort": "08582132-a52c-40e5-b22f-0b41827d0cfc",
+                        "points": [
+                            {
+                                "id": "4b5ccf73-0e15-4e8a-b273-02a705f9b220",
+                                "type": "point",
+                                "x": 550,
+                                "y": 25.5
+                            },
+                            {
+                                "id": "fc9d8f7c-3d19-4e4b-8fc2-fb282952a39b",
+                                "type": "point",
+                                "x": 572.953125,
+                                "y": 177.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "628a478b-b2db-4cec-9454-cdbf605f97e1": {
+                        "id": "628a478b-b2db-4cec-9454-cdbf605f97e1",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd",
+                        "sourcePort": "aaf6508e-0827-4679-b9f3-ff9ba5aa4e24",
+                        "target": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "targetPort": "57d231ec-4103-41d0-af9a-1e8b6864dda2",
+                        "points": [
+                            {
+                                "id": "e8fb114a-ac30-4352-ab54-ceb2ecc4c4fe",
+                                "type": "point",
+                                "x": 393,
+                                "y": 35.5
+                            },
+                            {
+                                "id": "30397a2a-9681-42f4-91a0-6d5c9c15fd9e",
+                                "type": "point",
+                                "x": 381.4609375,
+                                "y": 177.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    }
+                }
+            },
+            {
+                "id": "f9538655-04d7-46bb-9052-0ffd9514de69",
+                "type": "diagram-nodes",
+                "isSvg": false,
+                "transformed": true,
+                "models": {
+                    "5d3697c1-89fb-445f-a017-d6a4a0605ad8": {
+                        "id": "5d3697c1-89fb-445f-a017-d6a4a0605ad8",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 876,
+                        "y": 254,
+                        "ports": [
+                            {
+                                "id": "f2b294a9-5ddb-4bb4-a419-ae41adb75087",
+                                "type": "port.input",
+                                "x": 879,
+                                "y": 275,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "5d3697c1-89fb-445f-a017-d6a4a0605ad8",
+                                "links": [
+                                    "647e39f3-771b-4c0b-85f1-deaf07129ea8"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "VideoFrame"
+                        }
+                    },
+                    "926e7e4d-bccf-4e4f-8f43-657d79d623fc": {
+                        "id": "926e7e4d-bccf-4e4f-8f43-657d79d623fc",
+                        "type": "basic.input",
+                        "selected": false,
+                        "x": 98,
+                        "y": 368,
+                        "ports": [
+                            {
+                                "id": "8a359a46-97a7-449c-8994-b95758a8926c",
+                                "type": "port.output",
+                                "x": 184,
+                                "y": 389,
+                                "name": "input-out",
+                                "alignment": "right",
+                                "parentNode": "926e7e4d-bccf-4e4f-8f43-657d79d623fc",
+                                "links": [
+                                    "32621bc0-d161-476d-97e8-6dbcc1325a6b"
+                                ],
+                                "in": false,
+                                "label": "Enable",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "Enable"
+                        }
+                    },
+                    "f4cb6ce6-cbe4-463d-aeb7-856efc10514d": {
+                        "id": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "type": "basic.code",
+                        "selected": false,
+                        "x": 214,
+                        "y": 96,
+                        "ports": [
+                            {
+                                "id": "5f7e0707-08f6-4cab-ba75-4b398d002af9",
+                                "type": "port.input",
+                                "x": 217,
+                                "y": 387.75,
+                                "name": "Enable",
+                                "alignment": "left",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "32621bc0-d161-476d-97e8-6dbcc1325a6b"
+                                ],
+                                "in": true,
+                                "label": "Enable",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "89594103-531f-42c0-9799-b5a196f73362",
+                                "type": "port.output",
+                                "x": 739.3984375,
+                                "y": 276,
+                                "name": "VideoFrame",
+                                "alignment": "right",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "647e39f3-771b-4c0b-85f1-deaf07129ea8"
+                                ],
+                                "in": false,
+                                "label": "VideoFrame",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "7db9d21e-4273-4f15-a8ff-88d1f2fce4d2",
+                                "type": "port.output",
+                                "x": 739.3984375,
+                                "y": 393.5,
+                                "name": "FrameInfo",
+                                "alignment": "right",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "e24d346d-8e57-41eb-8316-adf76eefc3b0"
+                                ],
+                                "in": false,
+                                "label": "FrameInfo",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "47aaee64-17ef-4b08-8911-c29e3e101d4c",
+                                "type": "port.output",
+                                "x": 739.3984375,
+                                "y": 499.5,
+                                "name": "Status",
+                                "alignment": "right",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "6891599c-b88a-4879-b497-d8a64fd60e4f"
+                                ],
+                                "in": false,
+                                "label": "Status",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "57d231ec-4103-41d0-af9a-1e8b6864dda2",
+                                "type": "port.parameter",
+                                "x": 373.9609375,
+                                "y": 170,
+                                "name": "Port",
+                                "alignment": "top",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "628a478b-b2db-4cec-9454-cdbf605f97e1"
+                                ],
+                                "in": true,
+                                "label": "Port",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "08582132-a52c-40e5-b22f-0b41827d0cfc",
+                                "type": "port.parameter",
+                                "x": 565.453125,
+                                "y": 170,
+                                "name": "InitTimeout",
+                                "alignment": "top",
+                                "parentNode": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                                "links": [
+                                    "5d72b625-4cc8-4c24-b96f-f287936a000f"
+                                ],
+                                "in": true,
+                                "label": "InitTimeout",
+                                "hideLabel": false
+                            }
+                        ],
+                        "data": {
+                            "code": "#!/usr/bin/env python\n\"\"\"\nH264 video capture module for Offboard Studio\nConverts UDP video stream to OpenCV format using GStreamer\n\"\"\"\n\nimport cv2\nimport gi\nimport numpy as np\nfrom typing import Optional, List\nimport time\n\ngi.require_version('Gst', '1.0')\nfrom gi.repository import Gst\n\nfrom lib.utils import Synchronise\nfrom lib.inputs import Inputs\nfrom lib.outputs import Outputs\nfrom lib.parameters import Parameters\n\n\nclass H264Video:\n    \"\"\"BlueRov video capture class for processing UDP video streams\n    \n    Attributes:\n        port (int): Video UDP port\n        video_codec (str): Source h264 parser configuration\n        video_decode (str): Transform YUV to BGR configuration\n        video_pipe (object): GStreamer top-level pipeline\n        video_sink (object): GStreamer sink element\n        video_sink_conf (str): Sink configuration string\n        video_source (str): UDP source configuration\n        latest_frame (np.ndarray): Latest retrieved video frame\n        _new_frame (np.ndarray): Buffer for new incoming frame\n    \"\"\"\n\n    def __init__(self, port: int = 5600) -> None:\n        \"\"\"Initialize BlueRov video capture\n        \n        Args:\n            port (int, optional): UDP port for video stream. Defaults to 5600.\n        \"\"\"\n        try:\n            Gst.init(None)\n            \n            self.port = port\n            self.latest_frame: Optional[np.ndarray] = None\n            self._new_frame: Optional[np.ndarray] = None\n            \n            # Configure GStreamer pipeline components\n            self.video_source = f'udpsrc port={self.port}'\n            self.video_codec = '! application/x-rtp, payload=96 ! rtph264depay ! h264parse ! avdec_h264'\n            self.video_decode = '! decodebin ! videoconvert ! video/x-raw,format=(string)BGR ! videoconvert'\n            self.video_sink_conf = '! appsink emit-signals=true sync=false max-buffers=2 drop=true'\n            \n            self.video_pipe: Optional[object] = None\n            self.video_sink: Optional[object] = None\n            \n            self._initialize_pipeline()\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to initialize BlueRov video capture: {e}\")\n\n    def _initialize_pipeline(self) -> None:\n        \"\"\"Initialize and start the GStreamer pipeline\"\"\"\n        try:\n            config = [\n                self.video_source,\n                self.video_codec,\n                self.video_decode,\n                self.video_sink_conf\n            ]\n            \n            command = ' '.join(config)\n            self.video_pipe = Gst.parse_launch(command)\n            \n            if not self.video_pipe:\n                raise RuntimeError(\"Failed to create GStreamer pipeline\")\n                \n            self.video_pipe.set_state(Gst.State.PLAYING)\n            self.video_sink = self.video_pipe.get_by_name('appsink0')\n            \n            if not self.video_sink:\n                raise RuntimeError(\"Failed to get video sink\")\n                \n            self.video_sink.connect('new-sample', self._callback)\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to initialize GStreamer pipeline: {e}\")\n\n    @staticmethod\n    def _gst_to_opencv(sample) -> np.ndarray:\n        \"\"\"Convert GStreamer sample to OpenCV format\n        \n        Args:\n            sample: GStreamer sample containing video data\n            \n        Returns:\n            np.ndarray: OpenCV compatible image array\n        \"\"\"\n        try:\n            buf = sample.get_buffer()\n            caps_structure = sample.get_caps().get_structure(0)\n            \n            height = caps_structure.get_value('height')\n            width = caps_structure.get_value('width')\n            \n            array = np.ndarray(\n                (height, width, 3),\n                buffer=buf.extract_dup(0, buf.get_size()),\n                dtype=np.uint8\n            )\n            \n            return array\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to convert GStreamer sample to OpenCV: {e}\")\n\n    def get_frame(self) -> Optional[np.ndarray]:\n        \"\"\"Get the latest available frame\n        \n        Returns:\n            Optional[np.ndarray]: Latest video frame or None if no frame available\n        \"\"\"\n        if self.is_frame_available():\n            self.latest_frame = self._new_frame\n            self._new_frame = None  # Mark frame as consumed\n        return self.latest_frame\n\n    def is_frame_available(self) -> bool:\n        \"\"\"Check if a new frame is available\n        \n        Returns:\n            bool: True if a new frame is available\n        \"\"\"\n        return self._new_frame is not None\n\n    def _callback(self, sink) -> int:\n        \"\"\"Callback function for new video samples\n        \n        Args:\n            sink: GStreamer sink object\n            \n        Returns:\n            int: GStreamer flow return status\n        \"\"\"\n        try:\n            sample = sink.emit('pull-sample')\n            if sample:\n                self._new_frame = self._gst_to_opencv(sample)\n            return Gst.FlowReturn.OK\n        except Exception:\n            return Gst.FlowReturn.ERROR\n\n    def cleanup(self) -> None:\n        \"\"\"Clean up GStreamer resources\"\"\"\n        try:\n            if self.video_pipe:\n                self.video_pipe.set_state(Gst.State.NULL)\n        except Exception:\n            pass  # Ignore cleanup errors\n\n\ndef wait_for_video_initialization(video_capture: H264Video, \n                                timeout_seconds: int = 30) -> bool:\n    \"\"\"Wait for video stream to initialize with timeout\n    \n    Args:\n        video_capture (H264Video): Video capture instance\n        timeout_seconds (int): Maximum time to wait for initialization\n        \n    Returns:\n        bool: True if video initialized successfully, False if timeout\n    \"\"\"\n    start_time = time.time()\n    \n    while not video_capture.is_frame_available():\n        if time.time() - start_time > timeout_seconds:\n            return False\n        time.sleep(0.1)\n    \n    return True\n\n\ndef main(inputs: Inputs, outputs: Outputs, parameters: Parameters, synchronise: Synchronise) -> None:\n    \"\"\"Main function for BlueRov video capture in Offboard Studio\n    \n    Args:\n        inputs (Inputs): Input interface\n        outputs (Outputs): Output interface  \n        parameters (Parameters): Parameter interface\n        synchronise (Synchronise): Synchronization interface\n    \"\"\"\n    # Read parameters\n    port = parameters.read_number(\"Port\", default=5600)\n    timeout = parameters.read_number(\"InitTimeout\", default=30)\n    \n    # Check if module should auto-enable\n    auto_enable = False\n    try:\n        enable = inputs.read_number(\"Enable\")\n    except Exception:\n        auto_enable = True\n    \n    # Initialize video capture\n    video_capture: Optional[H264Video] = None\n    \n    try:\n        video_capture = H264Video(int(port))\n        \n        # Wait for video stream initialization\n        if not wait_for_video_initialization(video_capture, int(timeout)):\n            outputs.share_string(\"Status\", \"Failed to initialize video stream within timeout\")\n            return\n            \n        outputs.share_string(\"Status\", \"Video stream initialized successfully\")\n        \n        # Main processing loop\n        frame_count = 0\n        \n        while auto_enable or inputs.read_number('Enable'):\n            try:\n                if video_capture.is_frame_available():\n                    frame = video_capture.get_frame()\n                    \n                    if frame is not None:\n                        # Share the captured frame\n                        outputs.share_image(\"VideoFrame\", frame)\n                        \n                        # Share frame metadata\n                        height, width = frame.shape[:2]\n                        frame_info = [frame_count, width, height]\n                        outputs.share_array(\"FrameInfo\", frame_info)\n                        \n                        frame_count += 1\n                        \n                        # Update status\n                        outputs.share_string(\"Status\", f\"Streaming - Frame: {frame_count}\")\n                    \n                synchronise()\n                \n            except Exception as e:\n                error_msg = f\"Error in video processing: {str(e)}\"\n                outputs.share_string(\"Status\", error_msg)\n                break\n                \n    except Exception as e:\n        error_msg = f\"Failed to initialize BlueRov video capture: {str(e)}\"\n        outputs.share_string(\"Status\", error_msg)\n        \n    finally:\n        # Clean up resources\n        if video_capture:\n            video_capture.cleanup()\n            outputs.share_string(\"Status\", \"Video capture stopped and cleaned up\")",
+                            "aiDescription": "",
+                            "frequency": "30",
+                            "params": [
+                                {
+                                    "name": "Port"
+                                },
+                                {
+                                    "name": "InitTimeout"
+                                }
+                            ],
+                            "ports": {
+                                "in": [
+                                    {
+                                        "name": "Enable"
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "name": "VideoFrame"
+                                    },
+                                    {
+                                        "name": "FrameInfo"
+                                    },
+                                    {
+                                        "name": "Status"
+                                    }
+                                ]
+                            },
+                            "size": {
+                                "width": "822px",
+                                "height": "4961px"
+                            }
+                        }
+                    },
+                    "9e70d59d-5f66-4a65-9501-839fd996ef36": {
+                        "id": "9e70d59d-5f66-4a65-9501-839fd996ef36",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 882,
+                        "y": 372,
+                        "ports": [
+                            {
+                                "id": "57cbfae1-b1ae-44b0-a092-28b155072f57",
+                                "type": "port.input",
+                                "x": 885,
+                                "y": 393,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "9e70d59d-5f66-4a65-9501-839fd996ef36",
+                                "links": [
+                                    "e24d346d-8e57-41eb-8316-adf76eefc3b0"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "FrameInfo"
+                        }
+                    },
+                    "df8fee9d-173c-44ce-b2c6-f1ae2208b470": {
+                        "id": "df8fee9d-173c-44ce-b2c6-f1ae2208b470",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 880,
+                        "y": 471,
+                        "ports": [
+                            {
+                                "id": "2b36aebe-960c-4dd5-b09b-12536e6a60c9",
+                                "type": "port.input",
+                                "x": 883,
+                                "y": 492,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "df8fee9d-173c-44ce-b2c6-f1ae2208b470",
+                                "links": [
+                                    "6891599c-b88a-4879-b497-d8a64fd60e4f"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "Status"
+                        }
+                    },
+                    "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd": {
+                        "id": "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd",
+                        "type": "basic.constant",
+                        "selected": false,
+                        "x": 331,
+                        "y": -82,
+                        "ports": [
+                            {
+                                "id": "aaf6508e-0827-4679-b9f3-ff9ba5aa4e24",
+                                "type": "port.output",
+                                "x": 385.5,
+                                "y": 28,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd",
+                                "links": [
+                                    "628a478b-b2db-4cec-9454-cdbf605f97e1"
+                                ],
+                                "in": false,
+                                "label": "Port",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "Port",
+                            "value": "5600",
+                            "local": true
+                        }
+                    },
+                    "0007-f37c2eda-0499-407b-b5e9-91c0701495f6": {
+                        "id": "0007-f37c2eda-0499-407b-b5e9-91c0701495f6",
+                        "type": "basic.constant",
+                        "selected": false,
+                        "x": 488,
+                        "y": -91,
+                        "ports": [
+                            {
+                                "id": "f5f61cc9-c0e2-4662-a1b2-1b673b77908c",
+                                "type": "port.output",
+                                "x": 542.5,
+                                "y": 18,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0007-f37c2eda-0499-407b-b5e9-91c0701495f6",
+                                "links": [
+                                    "5d72b625-4cc8-4c24-b96f-f287936a000f"
+                                ],
+                                "in": false,
+                                "label": "InitTimeout",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "InitTimeout",
+                            "value": "30",
+                            "local": true
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "version": "3.0",
+    "package": {
+        "name": "GstreamerH264Streamer",
+        "version": "v0.0.1",
+        "description": "Gstreamer H.264 Video Streamer",
+        "author": "harunkurtdev",
+        "image": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDIwMDEwOTA0Ly9FTiIKICJodHRwOi8vd3d3LnczLm9yZy9UUi8yMDAxL1JFQy1TVkctMjAwMTA5MDQvRFREL3N2ZzEwLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4wIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiB3aWR0aD0iMjAwLjAwMDAwMHB0IiBoZWlnaHQ9IjIwMC4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDIwMC4wMDAwMDAgMjAwLjAwMDAwMCIKIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiPgoKPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDAwMDAsMjAwLjAwMDAwMCkgc2NhbGUoMC4xMDAwMDAsLTAuMTAwMDAwKSIKZmlsbD0iIzAwMDAwMCIgc3Ryb2tlPSJub25lIj4KPHBhdGggZD0iTTY2MyAxOTU1IGwtMjMgLTE2IDAgLTQ3MyBjMCAtMzU0IDMgLTQ3NSAxMiAtNDg0IDcgLTcgMjQgLTEyIDM5Ci0xMiAzNyAwIDc5OSA0NDEgODE4IDQ3MyAxMyAyMiAxMyAyOCAtMSA0OSAtMTQgMjIgLTc2NSA0NjQgLTgwNiA0NzQgLTkgMwotMjcgLTIgLTM5IC0xMXoiLz4KPHBhdGggZD0iTTE0NTggMTc4MiBjLTExNSAtMTQgLTIwOCAtMjggLTIwOCAtMzIgMCAtMyAxOSAtMTYgNDMgLTI5IGw0NCAtMjQKMTc4IDIxIGM5OSAxMiAxODAgMjAgMTgyIDE5IDQgLTQgLTQ5IC0xMDIxIC01MyAtMTAyNiAtNCAtNSAtMTI2NyA3MCAtMTI3NAo3NiAtNSA1IC0xMDEgNzc2IC05NiA3ODAgMiAzIDIyOSAzMyAyNDkgMzMgOCAwIDEwIDU0IDIgNjEgLTggOSAtMzA2IC0yOAotMzE3IC0zOSAtOCAtOCAzIC0xMjQgMzYgLTM4OSAyNiAtMjA4IDUwIC0zOTMgNTMgLTQxMSBsNSAtMzMgLTk3IDMgYy05MSAzCi05OCAyIC0xMTYgLTIxIC0xMCAtMTMgLTE5IC0zMSAtMTkgLTQwIDAgLTkgMzggLTE2MCA4NSAtMzM2IDYwIC0yMjQgOTIgLTMyNgoxMDYgLTM0MCAyMyAtMjQgLTUzIC0yNCA5MzQgNiA3MjkgMjIgNzE3IDIwIDczMSA3MyA3IDMxIC0xMTggNTIxIC0xNDAgNTQ1Ci0xMCAxMCAtMzAgMjEgLTQ3IDI1IC0xOSA0IC0yOSAxMSAtMjkgMjMgMSAxMCAxNCAyNTIgMjkgNTM4IDE5IDM0NyAyNSA1MjQKMTggNTMzIC0xMyAxNiAtNTQgMTQgLTI5OSAtMTZ6IG0tMTA1OCAtMTI2MiBsMCAtODAgNzAgMCA3MCAwIDAgODAgMCA4MCA1MCAwCjUwIDAgLTIgLTE5MiAtMyAtMTkzIC00NyAtMyAtNDggLTMgMCA2MCBjMCA3MiAtMTMgODQgLTkzIDc5IGwtNTIgLTMgLTMgLTY3Ci0zIC02OCAtNDQgMCAtNDUgMCAwIDE5NSAwIDE5NSA1MCAwIDUwIDAgMCAtODB6IG01MjAgNjUgYzg1IC00NCA4MCAtMTY0IC0xMQotMjM3IC0yMiAtMTcgLTM5IC0zNSAtMzkgLTM5IDAgLTQgMjYgLTkgNTggLTExIGw1NyAtMyAwIC00MCAwIC00MCAtMTM4IC0zCi0xMzggLTMgMyA0MyBjMyAzNiA4IDQ2IDM2IDYzIDc0IDQ1IDEzNSA5OSAxNDggMTMyIDE0IDMxIDEzIDM4IC0xIDYwIC0xNSAyMgotMjIgMjQgLTYzIDIxIC0yNiAtMyAtNTUgLTggLTY0IC0xMiAtMTIgLTUgLTIxIDAgLTM0IDIwIC0xOCAyNiAtMTcgMjcgNSA0NQoyOSAyNCAxMzggMjYgMTgxIDR6IG0zNzkgNCBjMzYgLTEzIDM1IC0xMCAxNyAtNTQgLTE1IC0zNSAtMzAgLTM4IC02MyAtMTIKLTI1IDE5IC0xMDMgLTE4IC0xMDMgLTQ5IDAgLTEwIDE2IC0xMSA3MCAtNyA2OSA2IDY5IDYgMTA1IC0zMCAyOSAtMjkgMzUgLTQyCjM1IC03OCAwIC05MCAtNTggLTE0OSAtMTQ2IC0xNDkgLTkxIDAgLTE0OCA3NSAtMTQ4IDE5NSAtMSAxMjAgNjEgMTk0IDE2MAoxOTUgMjMgMCA1NSAtNSA3MyAtMTF6IG0zOTkgLTEwMSBsMyAtMTA3IDI3IC0zIGMyMyAtMyAyNyAtOCAzMCAtMzggMyAtMzEgLTEKLTM3IC0yOCAtNDcgLTI2IC0xMCAtMzAgLTE2IC0zMCAtNDcgMCAtMzYgMCAtMzYgLTQ1IC0zNiBsLTQ1IDAgMCA0NSAwIDQ1Ci05MCAwIC05MCAwIDAgMzggYzAgMzMgMTIgNTQgODggMTUwIGw4NyAxMTIgNDUgLTIgNDUgLTMgMyAtMTA3eiIvPgo8cGF0aCBkPSJNMTE5NSAzODggYy0zOCAtMjIgLTQ2IC01NSAtMTkgLTgyIDE4IC0xOSA2NSAtMjEgODIgLTQgMTggMTggMTQgNjMKLTYgODEgLTIyIDIwIC0zMCAyMCAtNTcgNXoiLz4KPHBhdGggZD0iTTE1NzEgNDM2IGMtMTcgLTI1IC0zMSAtNDcgLTMxIC01MCAwIC0zIDEzIC02IDMwIC02IDMyIDAgNTAgMjIgNTAKNjQgMCA0MSAtMTUgMzggLTQ5IC04eiIvPgo8L2c+Cjwvc3ZnPgo="
+    },
+    "design": {
+        "board": "Python3-Noetic",
+        "graph": {
+            "blocks": [
+                {
+                    "id": "5d3697c1-89fb-445f-a017-d6a4a0605ad8",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "VideoFrame"
+                    },
+                    "position": {
+                        "x": 876,
+                        "y": 254
+                    }
+                },
+                {
+                    "id": "926e7e4d-bccf-4e4f-8f43-657d79d623fc",
+                    "type": "basic.input",
+                    "data": {
+                        "name": "Enable"
+                    },
+                    "position": {
+                        "x": 98,
+                        "y": 368
+                    }
+                },
+                {
+                    "id": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                    "type": "basic.code",
+                    "data": {
+                        "code": "#!/usr/bin/env python\n\"\"\"\nH264 video capture module for Offboard Studio\nConverts UDP video stream to OpenCV format using GStreamer\n\"\"\"\n\nimport cv2\nimport gi\nimport numpy as np\nfrom typing import Optional, List\nimport time\n\ngi.require_version('Gst', '1.0')\nfrom gi.repository import Gst\n\nfrom lib.utils import Synchronise\nfrom lib.inputs import Inputs\nfrom lib.outputs import Outputs\nfrom lib.parameters import Parameters\n\n\nclass H264Video:\n    \"\"\"BlueRov video capture class for processing UDP video streams\n    \n    Attributes:\n        port (int): Video UDP port\n        video_codec (str): Source h264 parser configuration\n        video_decode (str): Transform YUV to BGR configuration\n        video_pipe (object): GStreamer top-level pipeline\n        video_sink (object): GStreamer sink element\n        video_sink_conf (str): Sink configuration string\n        video_source (str): UDP source configuration\n        latest_frame (np.ndarray): Latest retrieved video frame\n        _new_frame (np.ndarray): Buffer for new incoming frame\n    \"\"\"\n\n    def __init__(self, port: int = 5600) -> None:\n        \"\"\"Initialize BlueRov video capture\n        \n        Args:\n            port (int, optional): UDP port for video stream. Defaults to 5600.\n        \"\"\"\n        try:\n            Gst.init(None)\n            \n            self.port = port\n            self.latest_frame: Optional[np.ndarray] = None\n            self._new_frame: Optional[np.ndarray] = None\n            \n            # Configure GStreamer pipeline components\n            self.video_source = f'udpsrc port={self.port}'\n            self.video_codec = '! application/x-rtp, payload=96 ! rtph264depay ! h264parse ! avdec_h264'\n            self.video_decode = '! decodebin ! videoconvert ! video/x-raw,format=(string)BGR ! videoconvert'\n            self.video_sink_conf = '! appsink emit-signals=true sync=false max-buffers=2 drop=true'\n            \n            self.video_pipe: Optional[object] = None\n            self.video_sink: Optional[object] = None\n            \n            self._initialize_pipeline()\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to initialize BlueRov video capture: {e}\")\n\n    def _initialize_pipeline(self) -> None:\n        \"\"\"Initialize and start the GStreamer pipeline\"\"\"\n        try:\n            config = [\n                self.video_source,\n                self.video_codec,\n                self.video_decode,\n                self.video_sink_conf\n            ]\n            \n            command = ' '.join(config)\n            self.video_pipe = Gst.parse_launch(command)\n            \n            if not self.video_pipe:\n                raise RuntimeError(\"Failed to create GStreamer pipeline\")\n                \n            self.video_pipe.set_state(Gst.State.PLAYING)\n            self.video_sink = self.video_pipe.get_by_name('appsink0')\n            \n            if not self.video_sink:\n                raise RuntimeError(\"Failed to get video sink\")\n                \n            self.video_sink.connect('new-sample', self._callback)\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to initialize GStreamer pipeline: {e}\")\n\n    @staticmethod\n    def _gst_to_opencv(sample) -> np.ndarray:\n        \"\"\"Convert GStreamer sample to OpenCV format\n        \n        Args:\n            sample: GStreamer sample containing video data\n            \n        Returns:\n            np.ndarray: OpenCV compatible image array\n        \"\"\"\n        try:\n            buf = sample.get_buffer()\n            caps_structure = sample.get_caps().get_structure(0)\n            \n            height = caps_structure.get_value('height')\n            width = caps_structure.get_value('width')\n            \n            array = np.ndarray(\n                (height, width, 3),\n                buffer=buf.extract_dup(0, buf.get_size()),\n                dtype=np.uint8\n            )\n            \n            return array\n            \n        except Exception as e:\n            raise RuntimeError(f\"Failed to convert GStreamer sample to OpenCV: {e}\")\n\n    def get_frame(self) -> Optional[np.ndarray]:\n        \"\"\"Get the latest available frame\n        \n        Returns:\n            Optional[np.ndarray]: Latest video frame or None if no frame available\n        \"\"\"\n        if self.is_frame_available():\n            self.latest_frame = self._new_frame\n            self._new_frame = None  # Mark frame as consumed\n        return self.latest_frame\n\n    def is_frame_available(self) -> bool:\n        \"\"\"Check if a new frame is available\n        \n        Returns:\n            bool: True if a new frame is available\n        \"\"\"\n        return self._new_frame is not None\n\n    def _callback(self, sink) -> int:\n        \"\"\"Callback function for new video samples\n        \n        Args:\n            sink: GStreamer sink object\n            \n        Returns:\n            int: GStreamer flow return status\n        \"\"\"\n        try:\n            sample = sink.emit('pull-sample')\n            if sample:\n                self._new_frame = self._gst_to_opencv(sample)\n            return Gst.FlowReturn.OK\n        except Exception:\n            return Gst.FlowReturn.ERROR\n\n    def cleanup(self) -> None:\n        \"\"\"Clean up GStreamer resources\"\"\"\n        try:\n            if self.video_pipe:\n                self.video_pipe.set_state(Gst.State.NULL)\n        except Exception:\n            pass  # Ignore cleanup errors\n\n\ndef wait_for_video_initialization(video_capture: H264Video, \n                                timeout_seconds: int = 30) -> bool:\n    \"\"\"Wait for video stream to initialize with timeout\n    \n    Args:\n        video_capture (H264Video): Video capture instance\n        timeout_seconds (int): Maximum time to wait for initialization\n        \n    Returns:\n        bool: True if video initialized successfully, False if timeout\n    \"\"\"\n    start_time = time.time()\n    \n    while not video_capture.is_frame_available():\n        if time.time() - start_time > timeout_seconds:\n            return False\n        time.sleep(0.1)\n    \n    return True\n\n\ndef main(inputs: Inputs, outputs: Outputs, parameters: Parameters, synchronise: Synchronise) -> None:\n    \"\"\"Main function for BlueRov video capture in Offboard Studio\n    \n    Args:\n        inputs (Inputs): Input interface\n        outputs (Outputs): Output interface  \n        parameters (Parameters): Parameter interface\n        synchronise (Synchronise): Synchronization interface\n    \"\"\"\n    # Read parameters\n    port = parameters.read_number(\"Port\", default=5600)\n    timeout = parameters.read_number(\"InitTimeout\", default=30)\n    \n    # Check if module should auto-enable\n    auto_enable = False\n    try:\n        enable = inputs.read_number(\"Enable\")\n    except Exception:\n        auto_enable = True\n    \n    # Initialize video capture\n    video_capture: Optional[H264Video] = None\n    \n    try:\n        video_capture = H264Video(int(port))\n        \n        # Wait for video stream initialization\n        if not wait_for_video_initialization(video_capture, int(timeout)):\n            outputs.share_string(\"Status\", \"Failed to initialize video stream within timeout\")\n            return\n            \n        outputs.share_string(\"Status\", \"Video stream initialized successfully\")\n        \n        # Main processing loop\n        frame_count = 0\n        \n        while auto_enable or inputs.read_number('Enable'):\n            try:\n                if video_capture.is_frame_available():\n                    frame = video_capture.get_frame()\n                    \n                    if frame is not None:\n                        # Share the captured frame\n                        outputs.share_image(\"VideoFrame\", frame)\n                        \n                        # Share frame metadata\n                        height, width = frame.shape[:2]\n                        frame_info = [frame_count, width, height]\n                        outputs.share_array(\"FrameInfo\", frame_info)\n                        \n                        frame_count += 1\n                        \n                        # Update status\n                        outputs.share_string(\"Status\", f\"Streaming - Frame: {frame_count}\")\n                    \n                synchronise()\n                \n            except Exception as e:\n                error_msg = f\"Error in video processing: {str(e)}\"\n                outputs.share_string(\"Status\", error_msg)\n                break\n                \n    except Exception as e:\n        error_msg = f\"Failed to initialize BlueRov video capture: {str(e)}\"\n        outputs.share_string(\"Status\", error_msg)\n        \n    finally:\n        # Clean up resources\n        if video_capture:\n            video_capture.cleanup()\n            outputs.share_string(\"Status\", \"Video capture stopped and cleaned up\")",
+                        "aiDescription": "",
+                        "frequency": "30",
+                        "params": [
+                            {
+                                "name": "Port"
+                            },
+                            {
+                                "name": "InitTimeout"
+                            }
+                        ],
+                        "ports": {
+                            "in": [
+                                {
+                                    "name": "Enable"
+                                }
+                            ],
+                            "out": [
+                                {
+                                    "name": "VideoFrame"
+                                },
+                                {
+                                    "name": "FrameInfo"
+                                },
+                                {
+                                    "name": "Status"
+                                }
+                            ]
+                        },
+                        "size": {
+                            "width": "822px",
+                            "height": "4961px"
+                        }
+                    },
+                    "position": {
+                        "x": 214,
+                        "y": 96
+                    }
+                },
+                {
+                    "id": "9e70d59d-5f66-4a65-9501-839fd996ef36",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "FrameInfo"
+                    },
+                    "position": {
+                        "x": 882,
+                        "y": 372
+                    }
+                },
+                {
+                    "id": "df8fee9d-173c-44ce-b2c6-f1ae2208b470",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "Status"
+                    },
+                    "position": {
+                        "x": 880,
+                        "y": 471
+                    }
+                },
+                {
+                    "id": "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "Port",
+                        "value": "5600",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 331,
+                        "y": -82
+                    }
+                },
+                {
+                    "id": "0007-f37c2eda-0499-407b-b5e9-91c0701495f6",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "InitTimeout",
+                        "value": "30",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 488,
+                        "y": -91
+                    }
+                }
+            ],
+            "wires": [
+                {
+                    "source": {
+                        "block": "926e7e4d-bccf-4e4f-8f43-657d79d623fc",
+                        "port": "input-out",
+                        "name": "Enable"
+                    },
+                    "target": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "Enable",
+                        "name": "Enable"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "FrameInfo",
+                        "name": "FrameInfo"
+                    },
+                    "target": {
+                        "block": "9e70d59d-5f66-4a65-9501-839fd996ef36",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "VideoFrame",
+                        "name": "VideoFrame"
+                    },
+                    "target": {
+                        "block": "5d3697c1-89fb-445f-a017-d6a4a0605ad8",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "Status",
+                        "name": "Status"
+                    },
+                    "target": {
+                        "block": "df8fee9d-173c-44ce-b2c6-f1ae2208b470",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "0007-f37c2eda-0499-407b-b5e9-91c0701495f6",
+                        "port": "constant-out",
+                        "name": "InitTimeout"
+                    },
+                    "target": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "InitTimeout",
+                        "name": "InitTimeout"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "0006-3b5f1b16-4d3b-4ca0-a8e9-7c4509eb09fd",
+                        "port": "constant-out",
+                        "name": "Port"
+                    },
+                    "target": {
+                        "block": "f4cb6ce6-cbe4-463d-aeb7-856efc10514d",
+                        "port": "Port",
+                        "name": "Port"
+                    }
+                }
+            ]
+        }
+    },
+    "dependencies": {}
+}
