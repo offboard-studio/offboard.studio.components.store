@@ -109,7 +109,21 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
                 cameraRos2: { label: 'CameraROS2', file: 'ROS2Camera.json' },
                 laserRos2: { label: 'LaserROS2', file: 'ROS2Laser.json' }
             }
-        }
+        },
+        ros2sub: {
+            label: 'ROS2-Subscribers',
+            children: {
+                cameraRos2: { label: 'CameraROS2', file: 'ROS2Camera.json' },
+                laserRos2: { label: 'LaserROS2', file: 'ROS2Laser.json' }
+            }
+        },
+        ros2pub: {
+            label: 'ROS2-Publishers',
+            children: {
+                cameraRos2: { label: 'CameraROS2', file: 'ROS2Camera.json' },
+                laserRos2: { label: 'LaserROS2', file: 'ROS2Laser.json' }
+            }
+        },
     },
     drivers: {
         control: {
@@ -142,8 +156,18 @@ export const collectionBlocksFiles: Record<string, CollectionBlockType> = {
                 canbusWrite: { label: 'CANBusWrite', file: 'CANBusWrite.json' },
                 snap7Read: { label: 'Snap7Read', file: 'Snap7Read.json' },
                 snap7Write: { label: 'Snap7Write', file: 'Snap7Write.json' }
-            }
+            },
         },
+        raspberrypi: {
+            label: 'RaspberryPi',
+            children: {
+                rpiDigitalRead: { label: 'DigitalRead', file: 'RPiDigitalRead.json' },
+                rpiDigitalWrite: { label: 'DigitalWrite', file: 'RPiDigitalWrite.json' },
+                rpiAnalogRead: { label: 'AnalogRead', file: 'RPiAnalogRead.json' },
+                rpiAnalogWrite: { label: 'AnalogWrite', file: 'RPiAnalogWrite.json' },
+            }
+        }
+
     }
 };
 

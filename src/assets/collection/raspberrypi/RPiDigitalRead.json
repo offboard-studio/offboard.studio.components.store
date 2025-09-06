@@ -1,0 +1,1003 @@
+{
+    "editor": {
+        "id": "4617ac83-a997-4f9c-ac29-1166ba7cf625",
+        "offsetX": 0,
+        "offsetY": 0,
+        "zoom": 100,
+        "gridSize": 0,
+        "layers": [
+            {
+                "id": "ef4f7243-f739-4289-a740-b84dc86942e4",
+                "type": "diagram-links",
+                "isSvg": true,
+                "transformed": true,
+                "models": {
+                    "7c65ce4f-603f-4ae4-91ce-2c6b615b5388": {
+                        "id": "7c65ce4f-603f-4ae4-91ce-2c6b615b5388",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0002-875dfd47-1f88-45b9-a766-4092ce7a8825",
+                        "sourcePort": "405f4f31-8cc0-4e9e-9da3-12ebb020991c",
+                        "target": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "targetPort": "2851dae6-6fb5-41c3-826f-6dead54f2e71",
+                        "points": [
+                            {
+                                "id": "19c8301b-bcae-4a7a-a97f-96acef475085",
+                                "type": "point",
+                                "x": 474,
+                                "y": 259.5
+                            },
+                            {
+                                "id": "2689202f-4eb4-42e9-a181-457b72ecb9af",
+                                "type": "point",
+                                "x": 678.3828125,
+                                "y": 434.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "ec3d7701-6666-45c4-95c4-15b273bb7915": {
+                        "id": "ec3d7701-6666-45c4-95c4-15b273bb7915",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b",
+                        "sourcePort": "fc43c13a-a1fa-4d77-9db4-2b521003c8e0",
+                        "target": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "targetPort": "bfa0d80c-029e-4db1-b99f-b2aca397c6bb",
+                        "points": [
+                            {
+                                "id": "0c18b8d1-4538-455b-bf86-e9dc582baa82",
+                                "type": "point",
+                                "x": 688,
+                                "y": 216.5
+                            },
+                            {
+                                "id": "5b6f4ebd-5ea7-4060-b996-91c54850a629",
+                                "type": "point",
+                                "x": 795.2265625,
+                                "y": 434.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "ae1a4af7-04df-4b3e-9c0b-a2c89ef29bb9": {
+                        "id": "ae1a4af7-04df-4b3e-9c0b-a2c89ef29bb9",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0004-924a9330-7954-4312-9173-c55ecb7c5919",
+                        "sourcePort": "ef625bcf-4d99-4ce6-9b7a-d16c24dc3a02",
+                        "target": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "targetPort": "d82cd289-a9db-41b2-800a-d0d3393f1303",
+                        "points": [
+                            {
+                                "id": "fa7fc1a9-c510-4869-9395-d50c93c8ba51",
+                                "type": "point",
+                                "x": 836,
+                                "y": 211.5
+                            },
+                            {
+                                "id": "d0cd7d41-b619-477c-a8e4-788bcaed1e63",
+                                "type": "point",
+                                "x": 920.2109375,
+                                "y": 434.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "b5e7f10a-fad1-4a4d-bdf0-8ab6a31d7610": {
+                        "id": "b5e7f10a-fad1-4a4d-bdf0-8ab6a31d7610",
+                        "type": "default",
+                        "selected": false,
+                        "source": "0005-5c5e2086-691b-428e-930e-2f779ff906eb",
+                        "sourcePort": "8f607c13-0da7-45ba-9639-cea28c6015fa",
+                        "target": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "targetPort": "4fcb8511-4607-4bd7-9354-9af7cf53fcd1",
+                        "points": [
+                            {
+                                "id": "03b4970e-eeab-4dfd-9797-fc744d333259",
+                                "type": "point",
+                                "x": 1029,
+                                "y": 191.5
+                            },
+                            {
+                                "id": "8681f264-ae29-4c54-bdd3-2e2e4393a56d",
+                                "type": "point",
+                                "x": 1050.515625,
+                                "y": 434.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "2d908979-c800-430f-ad51-0b346d0591bf": {
+                        "id": "2d908979-c800-430f-ad51-0b346d0591bf",
+                        "type": "default",
+                        "selected": false,
+                        "source": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "sourcePort": "bb4c7f17-c486-4a39-8887-543f90471f50",
+                        "target": "ee3008be-1fa8-43eb-ab09-e7099d262280",
+                        "targetPort": "fb9e611b-5294-4bcc-8089-9ae401720f0d",
+                        "points": [
+                            {
+                                "id": "7bb367bd-0fc5-40a0-af3e-3e073e835df5",
+                                "type": "point",
+                                "x": 1135.8984375,
+                                "y": 511.796875
+                            },
+                            {
+                                "id": "ebb647b1-e0c6-4971-802f-ebc8a9e9120f",
+                                "type": "point",
+                                "x": 1294.5,
+                                "y": 420.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "1740690b-eecf-412c-9a92-d25013392dbf": {
+                        "id": "1740690b-eecf-412c-9a92-d25013392dbf",
+                        "type": "default",
+                        "selected": false,
+                        "source": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "sourcePort": "14b2e058-2f11-453c-b657-c62295c897c4",
+                        "target": "afde67c0-4eeb-4eba-b49a-83aa5affc661",
+                        "targetPort": "ef47c641-1330-4b05-a387-5aa71a3f538b",
+                        "points": [
+                            {
+                                "id": "016173aa-706e-4a5e-9121-44820c951bd8",
+                                "type": "point",
+                                "x": 1135.8984375,
+                                "y": 600.59375
+                            },
+                            {
+                                "id": "ebb737ff-259f-4e97-90ae-beaaa44c2ebb",
+                                "type": "point",
+                                "x": 1305.5,
+                                "y": 533.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "f5b4a512-cb7f-42c9-8c01-136631f40118": {
+                        "id": "f5b4a512-cb7f-42c9-8c01-136631f40118",
+                        "type": "default",
+                        "selected": false,
+                        "source": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "sourcePort": "cda4e351-f0e2-4e5e-b943-22b768223766",
+                        "target": "29510388-ca26-460b-8355-9de066c26f84",
+                        "targetPort": "d7d3b44e-ae9e-4db8-bba9-25f4a7be798a",
+                        "points": [
+                            {
+                                "id": "d4ae61a1-37ff-434a-87e8-febd27740839",
+                                "type": "point",
+                                "x": 1135.8984375,
+                                "y": 689.390625
+                            },
+                            {
+                                "id": "70996d5f-d437-4162-b99e-ba1192135243",
+                                "type": "point",
+                                "x": 1327.5,
+                                "y": 671.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "52137c79-b320-40f7-aa0e-bc545568b6d0": {
+                        "id": "52137c79-b320-40f7-aa0e-bc545568b6d0",
+                        "type": "default",
+                        "selected": false,
+                        "source": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "sourcePort": "baa3fad0-7311-4a6a-b608-17dc848dfb30",
+                        "target": "c61c65f6-9810-451a-bc6e-97446851c664",
+                        "targetPort": "f5de09b2-0e29-4610-b200-6fc21d9c9e61",
+                        "points": [
+                            {
+                                "id": "2eab744b-2198-488e-ab2d-03b099a1185e",
+                                "type": "point",
+                                "x": 1135.8984375,
+                                "y": 778.1875
+                            },
+                            {
+                                "id": "dec02317-f490-4e50-be04-8a1b2138af0d",
+                                "type": "point",
+                                "x": 1312.5,
+                                "y": 804.5
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    },
+                    "4d037383-903d-4ebf-8c67-1a0cbf78dffa": {
+                        "id": "4d037383-903d-4ebf-8c67-1a0cbf78dffa",
+                        "type": "default",
+                        "selected": false,
+                        "source": "4d3e96c4-13d4-41ed-a131-d9d96babbd75",
+                        "sourcePort": "aa89c9a0-7deb-4ce7-9003-ed07d631191b",
+                        "target": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "targetPort": "4f598180-c6f2-4653-b66b-6d4bd07013af",
+                        "points": [
+                            {
+                                "id": "585e4c44-978b-4cce-a6b9-bf39ef384467",
+                                "type": "point",
+                                "x": 546.5,
+                                "y": 602.5
+                            },
+                            {
+                                "id": "35ef8e03-38c1-4e0f-ac8d-f78516227423",
+                                "type": "point",
+                                "x": 597.5,
+                                "y": 650.75
+                            }
+                        ],
+                        "labels": [],
+                        "width": 3,
+                        "color": "gray",
+                        "curvyness": 50,
+                        "selectedColor": "rgb(0,192,255)"
+                    }
+                }
+            },
+            {
+                "id": "43c2261e-af3b-4032-a0e3-66cb920b7232",
+                "type": "diagram-nodes",
+                "isSvg": false,
+                "transformed": true,
+                "models": {
+                    "0002-875dfd47-1f88-45b9-a766-4092ce7a8825": {
+                        "id": "0002-875dfd47-1f88-45b9-a766-4092ce7a8825",
+                        "type": "basic.constant",
+                        "selected": false,
+                        "x": 412,
+                        "y": 142,
+                        "ports": [
+                            {
+                                "id": "405f4f31-8cc0-4e9e-9da3-12ebb020991c",
+                                "type": "port.output",
+                                "x": 466.5,
+                                "y": 252,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0002-875dfd47-1f88-45b9-a766-4092ce7a8825",
+                                "links": [
+                                    "7c65ce4f-603f-4ae4-91ce-2c6b615b5388"
+                                ],
+                                "in": false,
+                                "label": "PinNumbers",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "PinNumbers",
+                            "value": "18,19,20,21",
+                            "local": true
+                        }
+                    },
+                    "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b": {
+                        "id": "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b",
+                        "type": "basic.constant",
+                        "selected": false,
+                        "x": 626,
+                        "y": 99,
+                        "ports": [
+                            {
+                                "id": "fc43c13a-a1fa-4d77-9db4-2b521003c8e0",
+                                "type": "port.output",
+                                "x": 680.5,
+                                "y": 209,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b",
+                                "links": [
+                                    "ec3d7701-6666-45c4-95c4-15b273bb7915"
+                                ],
+                                "in": false,
+                                "label": "PullResistor",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "PullResistor",
+                            "value": "PULL_UP",
+                            "local": true
+                        }
+                    },
+                    "0004-924a9330-7954-4312-9173-c55ecb7c5919": {
+                        "id": "0004-924a9330-7954-4312-9173-c55ecb7c5919",
+                        "type": "basic.constant",
+                        "selected": false,
+                        "x": 774,
+                        "y": 94,
+                        "ports": [
+                            {
+                                "id": "ef625bcf-4d99-4ce6-9b7a-d16c24dc3a02",
+                                "type": "port.output",
+                                "x": 828.5,
+                                "y": 204,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0004-924a9330-7954-4312-9173-c55ecb7c5919",
+                                "links": [
+                                    "ae1a4af7-04df-4b3e-9c0b-a2c89ef29bb9"
+                                ],
+                                "in": false,
+                                "label": "ReadFrequency",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "ReadFrequency",
+                            "value": "10",
+                            "local": true
+                        }
+                    },
+                    "0005-5c5e2086-691b-428e-930e-2f779ff906eb": {
+                        "id": "0005-5c5e2086-691b-428e-930e-2f779ff906eb",
+                        "type": "basic.constant",
+                        "selected": true,
+                        "x": 968,
+                        "y": 75,
+                        "ports": [
+                            {
+                                "id": "8f607c13-0da7-45ba-9639-cea28c6015fa",
+                                "type": "port.output",
+                                "x": 1021.5,
+                                "y": 184,
+                                "name": "constant-out",
+                                "alignment": "bottom",
+                                "parentNode": "0005-5c5e2086-691b-428e-930e-2f779ff906eb",
+                                "links": [
+                                    "b5e7f10a-fad1-4a4d-bdf0-8ab6a31d7610"
+                                ],
+                                "in": false,
+                                "label": "OutputFormat",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "OutputFormat",
+                            "value": "ARRAY",
+                            "local": true
+                        }
+                    },
+                    "ee3008be-1fa8-43eb-ab09-e7099d262280": {
+                        "id": "ee3008be-1fa8-43eb-ab09-e7099d262280",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 1284,
+                        "y": 392,
+                        "ports": [
+                            {
+                                "id": "fb9e611b-5294-4bcc-8089-9ae401720f0d",
+                                "type": "port.input",
+                                "x": 1287,
+                                "y": 413,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "ee3008be-1fa8-43eb-ab09-e7099d262280",
+                                "links": [
+                                    "2d908979-c800-430f-ad51-0b346d0591bf"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "DigitalStates"
+                        }
+                    },
+                    "afde67c0-4eeb-4eba-b49a-83aa5affc661": {
+                        "id": "afde67c0-4eeb-4eba-b49a-83aa5affc661",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 1295,
+                        "y": 505,
+                        "ports": [
+                            {
+                                "id": "ef47c641-1330-4b05-a387-5aa71a3f538b",
+                                "type": "port.input",
+                                "x": 1298,
+                                "y": 526,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "afde67c0-4eeb-4eba-b49a-83aa5affc661",
+                                "links": [
+                                    "1740690b-eecf-412c-9a92-d25013392dbf"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "Pin18_State"
+                        }
+                    },
+                    "29510388-ca26-460b-8355-9de066c26f84": {
+                        "id": "29510388-ca26-460b-8355-9de066c26f84",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 1317,
+                        "y": 643,
+                        "ports": [
+                            {
+                                "id": "d7d3b44e-ae9e-4db8-bba9-25f4a7be798a",
+                                "type": "port.input",
+                                "x": 1320,
+                                "y": 664,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "29510388-ca26-460b-8355-9de066c26f84",
+                                "links": [
+                                    "f5b4a512-cb7f-42c9-8c01-136631f40118"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "ActivePinCount"
+                        }
+                    },
+                    "c61c65f6-9810-451a-bc6e-97446851c664": {
+                        "id": "c61c65f6-9810-451a-bc6e-97446851c664",
+                        "type": "basic.output",
+                        "selected": false,
+                        "x": 1302,
+                        "y": 776,
+                        "ports": [
+                            {
+                                "id": "f5de09b2-0e29-4610-b200-6fc21d9c9e61",
+                                "type": "port.input",
+                                "x": 1305,
+                                "y": 797,
+                                "name": "output-in",
+                                "alignment": "left",
+                                "parentNode": "c61c65f6-9810-451a-bc6e-97446851c664",
+                                "links": [
+                                    "52137c79-b320-40f7-aa0e-bc545568b6d0"
+                                ],
+                                "in": true,
+                                "label": "output-in",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "PinStatesString"
+                        }
+                    },
+                    "b1037901-74ef-4f24-a6fd-ff4855aa3c0b": {
+                        "id": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "type": "basic.code",
+                        "selected": false,
+                        "x": 587,
+                        "y": 353,
+                        "ports": [
+                            {
+                                "id": "4f598180-c6f2-4653-b66b-6d4bd07013af",
+                                "type": "port.input",
+                                "x": 590,
+                                "y": 643.25,
+                                "name": "Enable",
+                                "alignment": "left",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "4d037383-903d-4ebf-8c67-1a0cbf78dffa"
+                                ],
+                                "in": true,
+                                "label": "Enable",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "bb4c7f17-c486-4a39-8887-543f90471f50",
+                                "type": "port.output",
+                                "x": 1128.3984375,
+                                "y": 504.296875,
+                                "name": "DigitalStates",
+                                "alignment": "right",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "2d908979-c800-430f-ad51-0b346d0591bf"
+                                ],
+                                "in": false,
+                                "label": "DigitalStates",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "14b2e058-2f11-453c-b657-c62295c897c4",
+                                "type": "port.output",
+                                "x": 1128.3984375,
+                                "y": 593.09375,
+                                "name": "Pin18_State",
+                                "alignment": "right",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "1740690b-eecf-412c-9a92-d25013392dbf"
+                                ],
+                                "in": false,
+                                "label": "Pin18_State",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "cda4e351-f0e2-4e5e-b943-22b768223766",
+                                "type": "port.output",
+                                "x": 1128.3984375,
+                                "y": 681.890625,
+                                "name": "ActivePinCount",
+                                "alignment": "right",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "f5b4a512-cb7f-42c9-8c01-136631f40118"
+                                ],
+                                "in": false,
+                                "label": "ActivePinCount",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "baa3fad0-7311-4a6a-b608-17dc848dfb30",
+                                "type": "port.output",
+                                "x": 1128.3984375,
+                                "y": 770.6875,
+                                "name": "PinStatesString",
+                                "alignment": "right",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "52137c79-b320-40f7-aa0e-bc545568b6d0"
+                                ],
+                                "in": false,
+                                "label": "PinStatesString",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "2851dae6-6fb5-41c3-826f-6dead54f2e71",
+                                "type": "port.parameter",
+                                "x": 670.8828125,
+                                "y": 427,
+                                "name": "PinNumbers",
+                                "alignment": "top",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "7c65ce4f-603f-4ae4-91ce-2c6b615b5388"
+                                ],
+                                "in": true,
+                                "label": "PinNumbers",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "bfa0d80c-029e-4db1-b99f-b2aca397c6bb",
+                                "type": "port.parameter",
+                                "x": 787.7265625,
+                                "y": 427,
+                                "name": "PullResistor",
+                                "alignment": "top",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "ec3d7701-6666-45c4-95c4-15b273bb7915"
+                                ],
+                                "in": true,
+                                "label": "PullResistor",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "d82cd289-a9db-41b2-800a-d0d3393f1303",
+                                "type": "port.parameter",
+                                "x": 912.7109375,
+                                "y": 427,
+                                "name": "ReadFrequency",
+                                "alignment": "top",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "ae1a4af7-04df-4b3e-9c0b-a2c89ef29bb9"
+                                ],
+                                "in": true,
+                                "label": "ReadFrequency",
+                                "hideLabel": false
+                            },
+                            {
+                                "id": "4fcb8511-4607-4bd7-9354-9af7cf53fcd1",
+                                "type": "port.parameter",
+                                "x": 1043.015625,
+                                "y": 427,
+                                "name": "OutputFormat",
+                                "alignment": "top",
+                                "parentNode": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                                "links": [
+                                    "b5e7f10a-fad1-4a4d-bdf0-8ab6a31d7610"
+                                ],
+                                "in": true,
+                                "label": "OutputFormat",
+                                "hideLabel": false
+                            }
+                        ],
+                        "data": {
+                            "code": "import RPi.GPIO as GPIO\nimport time\nfrom typing import List, Optional\n\nfrom lib.utils import Synchronise\nfrom lib.inputs import Inputs\nfrom lib.outputs import Outputs\nfrom lib.parameters import Parameters\n\n\nclass DigitalReader:\n    \"\"\"\n    A class to handle digital pin reading on Raspberry Pi.\n    \n    This class manages GPIO setup, pin configuration, and digital state reading\n    with proper error handling and resource cleanup.\n    \"\"\"\n    \n    def __init__(self, pin_numbers: List[int], pull_up_down: str = \"PULL_UP\"):\n        \"\"\"\n        Initialize the digital reader with specified pins.\n        \n        Args:\n            pin_numbers: List of GPIO pin numbers to read from\n            pull_up_down: Pull resistor configuration (\"PULL_UP\", \"PULL_DOWN\", or \"NONE\")\n        \"\"\"\n        self.pin_numbers = pin_numbers\n        self.pull_up_down = pull_up_down\n        self._setup_gpio()\n    \n    def _setup_gpio(self) -> None:\n        \"\"\"Set up GPIO pins for digital input reading.\"\"\"\n        try:\n            # Set GPIO mode to BCM (Broadcom pin numbering)\n            GPIO.setmode(GPIO.BCM)\n            GPIO.setwarnings(False)\n            \n            # Configure pull resistor setting\n            pull_config = {\n                \"PULL_UP\": GPIO.PUD_UP,\n                \"PULL_DOWN\": GPIO.PUD_DOWN,\n                \"NONE\": GPIO.PUD_OFF\n            }\n            \n            pud_setting = pull_config.get(self.pull_up_down, GPIO.PUD_UP)\n            \n            # Setup each pin as input with specified pull resistor\n            for pin in self.pin_numbers:\n                if self._is_valid_pin(pin):\n                    GPIO.setup(pin, GPIO.IN, pull_up_down=pud_setting)\n                    \n        except Exception as e:\n            raise RuntimeError(f\"Failed to setup GPIO pins: {e}\")\n    \n    def _is_valid_pin(self, pin: int) -> bool:\n        \"\"\"\n        Validate if the pin number is within acceptable range.\n        \n        Args:\n            pin: GPIO pin number to validate\n            \n        Returns:\n            True if pin is valid, False otherwise\n        \"\"\"\n        # BCM pin numbers typically range from 2-27 for most Pi models\n        return 2 <= pin <= 27\n    \n    def read_pin(self, pin: int) -> Optional[int]:\n        \"\"\"\n        Read digital state from a specific GPIO pin.\n        \n        Args:\n            pin: GPIO pin number to read\n            \n        Returns:\n            Digital state (0 or 1) or None if error occurs\n        \"\"\"\n        try:\n            if pin in self.pin_numbers:\n                return GPIO.input(pin)\n            else:\n                raise ValueError(f\"Pin {pin} not configured for reading\")\n        except Exception as e:\n            print(f\"Error reading pin {pin}: {e}\")\n            return None\n    \n    def read_all_pins(self) -> List[int]:\n        \"\"\"\n        Read digital states from all configured pins.\n        \n        Returns:\n            List of digital states for all configured pins\n        \"\"\"\n        pin_states = []\n        for pin in self.pin_numbers:\n            state = self.read_pin(pin)\n            pin_states.append(state if state is not None else 0)\n        return pin_states\n    \n    def cleanup(self) -> None:\n        \"\"\"Clean up GPIO resources.\"\"\"\n        try:\n            GPIO.cleanup()\n        except Exception as e:\n            print(f\"Error during GPIO cleanup: {e}\")\n\n\ndef main(inputs: Inputs, outputs: Outputs, parameters: Parameters, synchronise: Synchronise) -> None:\n    \"\"\"\n    Main function for Raspberry Pi digital read operation.\n    \n    This function reads digital states from specified GPIO pins and outputs\n    the results as arrays or individual numbers based on configuration.\n    \"\"\"\n    # Read parameters\n    pin_numbers_str = parameters.read_string(\"PinNumbers\")  # e.g., \"18,19,20,21\"\n    pull_resistor = parameters.read_string(\"PullResistor\")  # \"PULL_UP\", \"PULL_DOWN\", or \"NONE\"\n    read_frequency = parameters.read_number(\"ReadFrequency\")  # Hz\n    output_format = parameters.read_string(\"OutputFormat\")  # \"ARRAY\" or \"INDIVIDUAL\"\n    \n    # Parse pin numbers from comma-separated string\n    try:\n        pin_numbers = [int(pin.strip()) for pin in pin_numbers_str.split(',') if pin.strip()]\n    except (ValueError, AttributeError) as e:\n        print(f\"Invalid pin numbers format: {e}\")\n        return\n    \n    # Validate parameters\n    if not pin_numbers:\n        print(\"No valid pin numbers provided\")\n        return\n    \n    if read_frequency <= 0:\n        read_frequency = 10.0  # Default to 10 Hz\n    \n    # Calculate sleep time for desired frequency\n    sleep_time = 1.0 / read_frequency\n    \n    # Check if auto-enable or manual enable\n    auto_enable = False\n    try:\n        enable = inputs.read_number(\"Enable\")\n    except Exception:\n        auto_enable = True\n    \n    # Initialize digital reader\n    try:\n        digital_reader = DigitalReader(pin_numbers, pull_resistor)\n    except Exception as e:\n        print(f\"Failed to initialize digital reader: {e}\")\n        return\n    \n    try:\n        while auto_enable or inputs.read_number('Enable'):\n            # Read all configured pins\n            pin_states = digital_reader.read_all_pins()\n            \n            # Output results based on format preference\n            if output_format.upper() == \"ARRAY\":\n                # Output all pin states as a single array\n                outputs.share_array(\"DigitalStates\", pin_states)\n            else:\n                # Output individual pin states\n                for i, (pin, state) in enumerate(zip(pin_numbers, pin_states)):\n                    outputs.share_number(f\"Pin{pin}_State\", state)\n                    \n                # Also output as array for compatibility\n                outputs.share_array(\"DigitalStates\", pin_states)\n            \n            # Output summary information\n            active_pins = sum(1 for state in pin_states if state == 1)\n            outputs.share_number(\"ActivePinCount\", active_pins)\n            outputs.share_string(\"PinStatesString\", ','.join(map(str, pin_states)))\n            \n            # Control read frequency\n            time.sleep(sleep_time)\n            synchronise()\n            \n    except KeyboardInterrupt:\n        print(\"Digital read operation interrupted by user\")\n    except Exception as e:\n        print(f\"Error in main loop: {e}\")\n    finally:\n        # Ensure GPIO cleanup on exit\n        digital_reader.cleanup()\n        print(\"GPIO cleanup completed\")",
+                            "aiDescription": "",
+                            "frequency": "30",
+                            "params": [
+                                {
+                                    "name": "PinNumbers"
+                                },
+                                {
+                                    "name": "PullResistor"
+                                },
+                                {
+                                    "name": "ReadFrequency"
+                                },
+                                {
+                                    "name": "OutputFormat"
+                                }
+                            ],
+                            "ports": {
+                                "in": [
+                                    {
+                                        "name": "Enable"
+                                    }
+                                ],
+                                "out": [
+                                    {
+                                        "name": "DigitalStates"
+                                    },
+                                    {
+                                        "name": "Pin18_State"
+                                    },
+                                    {
+                                        "name": "ActivePinCount"
+                                    },
+                                    {
+                                        "name": "PinStatesString"
+                                    }
+                                ]
+                            },
+                            "size": {
+                                "width": "461px",
+                                "height": "396px"
+                            }
+                        }
+                    },
+                    "4d3e96c4-13d4-41ed-a131-d9d96babbd75": {
+                        "id": "4d3e96c4-13d4-41ed-a131-d9d96babbd75",
+                        "type": "basic.input",
+                        "selected": false,
+                        "x": 453,
+                        "y": 574,
+                        "ports": [
+                            {
+                                "id": "aa89c9a0-7deb-4ce7-9003-ed07d631191b",
+                                "type": "port.output",
+                                "x": 539,
+                                "y": 595,
+                                "name": "input-out",
+                                "alignment": "right",
+                                "parentNode": "4d3e96c4-13d4-41ed-a131-d9d96babbd75",
+                                "links": [
+                                    "4d037383-903d-4ebf-8c67-1a0cbf78dffa"
+                                ],
+                                "in": false,
+                                "label": "Enable",
+                                "hideLabel": true
+                            }
+                        ],
+                        "data": {
+                            "name": "Enable"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "version": "3.0",
+    "package": {
+        "name": "RaspberryPIDigitalRead",
+        "version": "v0.0.1",
+        "description": "Raspberry PI Digital Read",
+        "author": "harunkurtdev",
+        "image": ""
+    },
+    "design": {
+        "board": "Python3-Noetic",
+        "graph": {
+            "blocks": [
+                {
+                    "id": "0002-875dfd47-1f88-45b9-a766-4092ce7a8825",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "PinNumbers",
+                        "value": "18,19,20,21",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 412,
+                        "y": 142
+                    }
+                },
+                {
+                    "id": "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "PullResistor",
+                        "value": "PULL_UP",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 626,
+                        "y": 99
+                    }
+                },
+                {
+                    "id": "0004-924a9330-7954-4312-9173-c55ecb7c5919",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "ReadFrequency",
+                        "value": "10",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 774,
+                        "y": 94
+                    }
+                },
+                {
+                    "id": "0005-5c5e2086-691b-428e-930e-2f779ff906eb",
+                    "type": "basic.constant",
+                    "data": {
+                        "name": "OutputFormat",
+                        "value": "ARRAY",
+                        "local": true
+                    },
+                    "position": {
+                        "x": 968,
+                        "y": 75
+                    }
+                },
+                {
+                    "id": "ee3008be-1fa8-43eb-ab09-e7099d262280",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "DigitalStates"
+                    },
+                    "position": {
+                        "x": 1284,
+                        "y": 392
+                    }
+                },
+                {
+                    "id": "afde67c0-4eeb-4eba-b49a-83aa5affc661",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "Pin18_State"
+                    },
+                    "position": {
+                        "x": 1295,
+                        "y": 505
+                    }
+                },
+                {
+                    "id": "29510388-ca26-460b-8355-9de066c26f84",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "ActivePinCount"
+                    },
+                    "position": {
+                        "x": 1317,
+                        "y": 643
+                    }
+                },
+                {
+                    "id": "c61c65f6-9810-451a-bc6e-97446851c664",
+                    "type": "basic.output",
+                    "data": {
+                        "name": "PinStatesString"
+                    },
+                    "position": {
+                        "x": 1302,
+                        "y": 776
+                    }
+                },
+                {
+                    "id": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                    "type": "basic.code",
+                    "data": {
+                        "code": "import RPi.GPIO as GPIO\nimport time\nfrom typing import List, Optional\n\nfrom lib.utils import Synchronise\nfrom lib.inputs import Inputs\nfrom lib.outputs import Outputs\nfrom lib.parameters import Parameters\n\n\nclass DigitalReader:\n    \"\"\"\n    A class to handle digital pin reading on Raspberry Pi.\n    \n    This class manages GPIO setup, pin configuration, and digital state reading\n    with proper error handling and resource cleanup.\n    \"\"\"\n    \n    def __init__(self, pin_numbers: List[int], pull_up_down: str = \"PULL_UP\"):\n        \"\"\"\n        Initialize the digital reader with specified pins.\n        \n        Args:\n            pin_numbers: List of GPIO pin numbers to read from\n            pull_up_down: Pull resistor configuration (\"PULL_UP\", \"PULL_DOWN\", or \"NONE\")\n        \"\"\"\n        self.pin_numbers = pin_numbers\n        self.pull_up_down = pull_up_down\n        self._setup_gpio()\n    \n    def _setup_gpio(self) -> None:\n        \"\"\"Set up GPIO pins for digital input reading.\"\"\"\n        try:\n            # Set GPIO mode to BCM (Broadcom pin numbering)\n            GPIO.setmode(GPIO.BCM)\n            GPIO.setwarnings(False)\n            \n            # Configure pull resistor setting\n            pull_config = {\n                \"PULL_UP\": GPIO.PUD_UP,\n                \"PULL_DOWN\": GPIO.PUD_DOWN,\n                \"NONE\": GPIO.PUD_OFF\n            }\n            \n            pud_setting = pull_config.get(self.pull_up_down, GPIO.PUD_UP)\n            \n            # Setup each pin as input with specified pull resistor\n            for pin in self.pin_numbers:\n                if self._is_valid_pin(pin):\n                    GPIO.setup(pin, GPIO.IN, pull_up_down=pud_setting)\n                    \n        except Exception as e:\n            raise RuntimeError(f\"Failed to setup GPIO pins: {e}\")\n    \n    def _is_valid_pin(self, pin: int) -> bool:\n        \"\"\"\n        Validate if the pin number is within acceptable range.\n        \n        Args:\n            pin: GPIO pin number to validate\n            \n        Returns:\n            True if pin is valid, False otherwise\n        \"\"\"\n        # BCM pin numbers typically range from 2-27 for most Pi models\n        return 2 <= pin <= 27\n    \n    def read_pin(self, pin: int) -> Optional[int]:\n        \"\"\"\n        Read digital state from a specific GPIO pin.\n        \n        Args:\n            pin: GPIO pin number to read\n            \n        Returns:\n            Digital state (0 or 1) or None if error occurs\n        \"\"\"\n        try:\n            if pin in self.pin_numbers:\n                return GPIO.input(pin)\n            else:\n                raise ValueError(f\"Pin {pin} not configured for reading\")\n        except Exception as e:\n            print(f\"Error reading pin {pin}: {e}\")\n            return None\n    \n    def read_all_pins(self) -> List[int]:\n        \"\"\"\n        Read digital states from all configured pins.\n        \n        Returns:\n            List of digital states for all configured pins\n        \"\"\"\n        pin_states = []\n        for pin in self.pin_numbers:\n            state = self.read_pin(pin)\n            pin_states.append(state if state is not None else 0)\n        return pin_states\n    \n    def cleanup(self) -> None:\n        \"\"\"Clean up GPIO resources.\"\"\"\n        try:\n            GPIO.cleanup()\n        except Exception as e:\n            print(f\"Error during GPIO cleanup: {e}\")\n\n\ndef main(inputs: Inputs, outputs: Outputs, parameters: Parameters, synchronise: Synchronise) -> None:\n    \"\"\"\n    Main function for Raspberry Pi digital read operation.\n    \n    This function reads digital states from specified GPIO pins and outputs\n    the results as arrays or individual numbers based on configuration.\n    \"\"\"\n    # Read parameters\n    pin_numbers_str = parameters.read_string(\"PinNumbers\")  # e.g., \"18,19,20,21\"\n    pull_resistor = parameters.read_string(\"PullResistor\")  # \"PULL_UP\", \"PULL_DOWN\", or \"NONE\"\n    read_frequency = parameters.read_number(\"ReadFrequency\")  # Hz\n    output_format = parameters.read_string(\"OutputFormat\")  # \"ARRAY\" or \"INDIVIDUAL\"\n    \n    # Parse pin numbers from comma-separated string\n    try:\n        pin_numbers = [int(pin.strip()) for pin in pin_numbers_str.split(',') if pin.strip()]\n    except (ValueError, AttributeError) as e:\n        print(f\"Invalid pin numbers format: {e}\")\n        return\n    \n    # Validate parameters\n    if not pin_numbers:\n        print(\"No valid pin numbers provided\")\n        return\n    \n    if read_frequency <= 0:\n        read_frequency = 10.0  # Default to 10 Hz\n    \n    # Calculate sleep time for desired frequency\n    sleep_time = 1.0 / read_frequency\n    \n    # Check if auto-enable or manual enable\n    auto_enable = False\n    try:\n        enable = inputs.read_number(\"Enable\")\n    except Exception:\n        auto_enable = True\n    \n    # Initialize digital reader\n    try:\n        digital_reader = DigitalReader(pin_numbers, pull_resistor)\n    except Exception as e:\n        print(f\"Failed to initialize digital reader: {e}\")\n        return\n    \n    try:\n        while auto_enable or inputs.read_number('Enable'):\n            # Read all configured pins\n            pin_states = digital_reader.read_all_pins()\n            \n            # Output results based on format preference\n            if output_format.upper() == \"ARRAY\":\n                # Output all pin states as a single array\n                outputs.share_array(\"DigitalStates\", pin_states)\n            else:\n                # Output individual pin states\n                for i, (pin, state) in enumerate(zip(pin_numbers, pin_states)):\n                    outputs.share_number(f\"Pin{pin}_State\", state)\n                    \n                # Also output as array for compatibility\n                outputs.share_array(\"DigitalStates\", pin_states)\n            \n            # Output summary information\n            active_pins = sum(1 for state in pin_states if state == 1)\n            outputs.share_number(\"ActivePinCount\", active_pins)\n            outputs.share_string(\"PinStatesString\", ','.join(map(str, pin_states)))\n            \n            # Control read frequency\n            time.sleep(sleep_time)\n            synchronise()\n            \n    except KeyboardInterrupt:\n        print(\"Digital read operation interrupted by user\")\n    except Exception as e:\n        print(f\"Error in main loop: {e}\")\n    finally:\n        # Ensure GPIO cleanup on exit\n        digital_reader.cleanup()\n        print(\"GPIO cleanup completed\")",
+                        "aiDescription": "",
+                        "frequency": "30",
+                        "params": [
+                            {
+                                "name": "PinNumbers"
+                            },
+                            {
+                                "name": "PullResistor"
+                            },
+                            {
+                                "name": "ReadFrequency"
+                            },
+                            {
+                                "name": "OutputFormat"
+                            }
+                        ],
+                        "ports": {
+                            "in": [
+                                {
+                                    "name": "Enable"
+                                }
+                            ],
+                            "out": [
+                                {
+                                    "name": "DigitalStates"
+                                },
+                                {
+                                    "name": "Pin18_State"
+                                },
+                                {
+                                    "name": "ActivePinCount"
+                                },
+                                {
+                                    "name": "PinStatesString"
+                                }
+                            ]
+                        },
+                        "size": {
+                            "width": "461px",
+                            "height": "396px"
+                        }
+                    },
+                    "position": {
+                        "x": 587,
+                        "y": 353
+                    }
+                },
+                {
+                    "id": "4d3e96c4-13d4-41ed-a131-d9d96babbd75",
+                    "type": "basic.input",
+                    "data": {
+                        "name": "Enable"
+                    },
+                    "position": {
+                        "x": 453,
+                        "y": 574
+                    }
+                }
+            ],
+            "wires": [
+                {
+                    "source": {
+                        "block": "0002-875dfd47-1f88-45b9-a766-4092ce7a8825",
+                        "port": "constant-out",
+                        "name": "PinNumbers"
+                    },
+                    "target": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "PinNumbers",
+                        "name": "PinNumbers"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "0003-9cd9e534-6054-46dd-8d6e-7a789618f83b",
+                        "port": "constant-out",
+                        "name": "PullResistor"
+                    },
+                    "target": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "PullResistor",
+                        "name": "PullResistor"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "0004-924a9330-7954-4312-9173-c55ecb7c5919",
+                        "port": "constant-out",
+                        "name": "ReadFrequency"
+                    },
+                    "target": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "ReadFrequency",
+                        "name": "ReadFrequency"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "0005-5c5e2086-691b-428e-930e-2f779ff906eb",
+                        "port": "constant-out",
+                        "name": "OutputFormat"
+                    },
+                    "target": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "OutputFormat",
+                        "name": "OutputFormat"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "DigitalStates",
+                        "name": "DigitalStates"
+                    },
+                    "target": {
+                        "block": "ee3008be-1fa8-43eb-ab09-e7099d262280",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "Pin18_State",
+                        "name": "Pin18_State"
+                    },
+                    "target": {
+                        "block": "afde67c0-4eeb-4eba-b49a-83aa5affc661",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "ActivePinCount",
+                        "name": "ActivePinCount"
+                    },
+                    "target": {
+                        "block": "29510388-ca26-460b-8355-9de066c26f84",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "PinStatesString",
+                        "name": "PinStatesString"
+                    },
+                    "target": {
+                        "block": "c61c65f6-9810-451a-bc6e-97446851c664",
+                        "port": "output-in",
+                        "name": "output-in"
+                    }
+                },
+                {
+                    "source": {
+                        "block": "4d3e96c4-13d4-41ed-a131-d9d96babbd75",
+                        "port": "input-out",
+                        "name": "Enable"
+                    },
+                    "target": {
+                        "block": "b1037901-74ef-4f24-a6fd-ff4855aa3c0b",
+                        "port": "Enable",
+                        "name": "Enable"
+                    }
+                }
+            ]
+        }
+    },
+    "dependencies": {}
+}
